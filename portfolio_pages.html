@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>haru's portfolio sites</title>
+    <link rel="icon" href="./static/icon/vector-pen.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./static/css_js/bootstrap.min.css">
+    <style>
+        h2, h5 {
+            position: relative;
+            padding: 1.5rem;
+            text-align: center;
+            }
+
+        h2:before, h5:before {
+            position: absolute;
+            bottom: 15px;
+            left: calc(50% - 30px);
+            width: 60px;
+            height: 5px;
+            content: '';
+            border-radius: 5px;
+            background: lightgrey;
+        }
+
+        .main_img{
+            height: auto;
+            background-image: url('./static/images/portfolio_img_001.png');
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .str_img{
+            height: auto;
+            background-color:  rgba(248, 249, 250, 0.8);
+            margin: 0% 5%;
+        }
+
+        .str_center{
+            text-align: center;
+        }
+
+        .str_left{
+            text-align: left;
+            display: inline-block;
+        }
+
+        .bottom_margen{
+            margin-bottom: 100px;
+        }
+
+        .padding_scale{
+            padding: 50px;
+        }
+
+        .padding_scale_top{
+            padding-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header id="top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"/>
+                <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"/>
+                </svg>
+                haru's portfolio
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#This_site_area">What is this sites ?</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#About_me_area">About me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#works_area" tabindex="-1" aria-disabled="true">Works</a>
+                    </li>
+
+                    <!--<li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Works
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#works_1">転移学習を用いた胸部Ｘ線画像モデルの作成と性能評価</a>
+                        </ul>
+
+                    </li>
+                -->
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Experience_area" tabindex="-1" aria-disabled="true">Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Graduation_Reserch" tabindex="-1" aria-disabled="true">Graduation Reserch</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#skill_area" tabindex="-1" aria-disabled="true">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Future_area">Future</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<main class="container-fluid main_img" id="body_top">
+    <section class="str_img">
+        <section class="margin-bottom padding_scale">
+
+            <div>
+                <h2 id="This_site_area" class="text-center"><span>What is this site ?</span></h2>
+            </div>
+            <div class="row">
+                <div  class="card mb-5 col-sm-10 mx-auto" style="width: auto;">
+                    <div class="card-body">
+                        <div class="card-title"></div>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8" style="align-self: center;">
+                                    <p>このサイトは、東京国際工科専門職大学で人工知能を学んでいるTomoharu Akamatsuのポートフォリオサイトです。どうぞご覧ください。</p>
+                                
+                                </div>
+                                <div class="col-sm-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    
+        <section class="margin-bottom padding_scale">
+            <div>
+                <h2 id="About_me_area" class="text-center"><span>About me</span></h2>
+            </div>
+
+            <div class="row">
+                <div class="card mb-5 col-sm-10 mx-auto" style="width: auto;">
+                    <div class="card-body">
+                        <h3 class="card-title text-center"><span class="str_center">Tomoharu Akamatsu</span></h3>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p class="str_center">東京国際工科専門職大学 情報工学科 AI戦略コース在籍<br></p>
+                                    <p>大学では深層学習などのAI関連を勉強中です。インターンとして、AI専門メディアでの記事執筆経験やAI開発・データ分析を行う会社での開発業務を経験しています。
+                                        AIと人が協力し合って社会課題を解決できるシステムを開発したいと思っています。
+                                    </p>
+                                
+                                </div>
+                                <div class="col-sm-2"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="margin-bottom padding_scale">
+
+            <div>
+                <h2 id="works_area" class="text-center">Works</h2>
+            </div>
+
+            <div class="row">
+                <div class="card mb-5 mx-auto col-sm-10">
+                    <span class="str_center padding_scale_top">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSxoqjUgu5tTWR1vkjZqheVpDNIAzpZl7Het3_DZLler7zfHqwUYcDzQfB97tsdtdLsLmKjov5uXDcw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </span>
+                    <div class="card-body">
+                        <a href='https://github.com/iput2020-akamatsu/ml_x-ray'><h5 class="card-title str_center"><span>01_転移学習を用いた胸部Ｘ線画像モデルの作成と性能評価</span></h5></a>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p style="text-align: justify;">昨今の感染症の情勢で、疲弊している医療従事者の方を少しでも支援したいと思ったため、深層学習モデルであるVGG16、Vision Transformer、MLP-Mixerの学習済みモデルを用いて、胸部X線画像の分類モデルの転移学習を行いました。
+                                    画像の前処理を様々試し、学習して、評価指標には、Torchevalを用いて、評価を行いました。また、論文の内容を解釈し、今まで使ったことのなかったPyTorchの使い方を学習することができました。
+                                    Datasetは、データコンペティションサイト:Kaggleから取得して、学習をしました。難しい部分もありましたが、公式リファレンス、Webサイト、参考書で調査しながら、今現在（2023年2月28日）約80%の精度となっております。
+                                    </p>
+                                </div>
+                                <div class="col-sm-2"></div>
+
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-3 str_center">
+                                <a href="https://github.com/iput2020-akamatsu/ml_x-ray" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">GitHubへ</a>
+                                </div>
+                                <div class="col-sm-3 str_center">
+                                <a href="https://drive.google.com/drive/folders/1JO1oFOWHYdulK-HZeSaoVa8Ulf8kgGNf?usp=sharing" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">制作物へ</a>
+                                </div>
+                                <div class="col-sm-3"></div>
+
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-5 mx-auto col-sm-10">
+                    <span class="str_center padding_scale_top">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSpPVZ1Hwd7kc6QnRCKJCYK4GykeFW_57rfus_KkTuUpddKg1DhCT4joeX14gCsVi07LyqAsDnuH5yE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </span>
+                    <div class="card-body">
+                        <a href='x_ray_app_info.html'><h5 class="card-title str_center"><span>02_転移学習を用いた胸部Ｘ線画像モデルを用いたデスクトップアプリ開発</span></h5></a>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p style="text-align: justify;">
+                                        上記01で精度のよかったモデルを用いたデスクトップアプリケーションを作成しました。
+                                    </p>
+                                </div>
+                                <div class="col-sm-2"></div>
+
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-3 str_center">
+                                <a href="https://github.com/iput2020-akamatsu/x_ray_classification_desktop_app" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">GitHubへ</a>
+                                </div>
+                                <div class="col-sm-4 str_center">
+                                <a href="x_ray_app_info.html" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">詳細へ</a>
+                                </div>
+                                <div class="col-sm-3 str_center">
+                                <a href="https://drive.google.com/drive/folders/1lVSXfamr_NNMct4Z5EArC4_azDQ6bYbk?usp=sharing" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">制作物へ</a>
+                                </div>
+                                <div class="col-sm-1"></div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-5 mx-auto col-sm-10">
+                    <div class="card-body">
+                        <a href='qr_code_info.html'><h5 class="card-title str_center"><span>03_QR Create App</span></h5></a>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p style="text-align: justify;">
+                                        デスクトップアプリケーションの作成の練習もかねて、QRコードを作成するアプリを開発しました。
+                                        URL等からQRコードを生成して、表示することやpngファイルとして保存することができるようにしました。
+                                        GUIのフレームワークはTkinterを用いて開発しました。
+                                    </p>
+                                </div>
+                                <div class="col-sm-2"></div>
+
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-3 str_center">
+                                <a href="https://github.com/iput2020-akamatsu/qr_create_app" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">GitHubへ</a>
+                                </div>
+                                <div class="col-sm-4 str_center">
+                                <a href="qr_code_info.html" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">詳細へ</a>
+                                </div>
+                                <div class="col-sm-3 str_center">
+                                <a href="https://drive.google.com/drive/folders/1tm1hwWqDKS6Z8oyZCHaIv2sQXyaR_SQx?usp=sharing" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">制作物へ</a>
+                                </div>
+                                <div class="col-sm-1"></div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-5 mx-auto col-sm-10">
+                    <div class="card-body">
+                        <a href='https://github.com/iput2020-akamatsu/fig_search_cui'><h5 class="card-title str_center"><span>04_数字当てゲームコマンドラインアプリ</span></h5></a>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p style="text-align: justify;">
+                                        コマンドラインで遊べる数字当てゲームを作成しました。関数を別ファイルにして、整備しやすいようにしました。
+                                    </p>
+                                </div>
+                                <div class="col-sm-2"></div>
+
+                                <div class="col-sm-4"></div>
+                                <div class="col-sm-4 str_center">
+                                <a href="https://github.com/iput2020-akamatsu/fig_search_cui" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">GitHubへ</a>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-5 mx-auto col-sm-10">
+                    <span class="str_center padding_scale_top">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQL2r_3jN0BxbMjSCePI30EToYdZ2iHLOhoZj-ukpp-z_ONwTxCARajzQlPKNrIvd1VAiL1a1wGc7_2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </span>
+                    <div class="card-body">
+                        <a href='fig_search_app_info.html'><h5 class="card-title str_center"><span>05_数字当てゲーム(Fig_Search_App)デスクトップアプリ</span></h5></a>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p style="text-align: justify;">
+                                        上記04のコマンドラインでの数字当てゲームをデスクトップアプリ化しました。sqlightも用いて記録の保存をできるようにしました。
+                                    </p>
+                                </div>
+                                <div class="col-sm-2"></div>
+
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-3 str_center">
+                                <a href="https://github.com/iput2020-akamatsu/fig_search_app" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">GitHubへ</a>
+                                </div>
+                                <div class="col-sm-4 str_center">
+                                <a href="fig_search_app_info.html" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">詳細へ</a>
+                                </div>
+                                <div class="col-sm-3 str_center">
+                                <a href="https://drive.google.com/drive/folders/1-Z7t09kouN2-RRYveuQu7UCBPi_SOjkS?usp=sharing" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">制作物へ</a>
+                                </div>
+                                <div class="col-sm-1"></div>
+
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card mb-5 mx-auto col-sm-10">
+                    <div class="row" style="padding-top: 30px;">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <img src="./static/images/portfolio_top_img_001.PNG" class="card-img-top" alt="...">
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title str_center"><span>06_ポートフォリオサイト</span></h5>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p style="text-align: justify;">自分の成果をまとめたポートフォリオをHTML+CSS、Bootstrapを用いて作成しました。HTML+CSSは扱ったことがなかったので苦労しましたが、調べながら頑張って制作しました。</p>
+                                </div>
+                                <div class="col-sm-2"></div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class=" container-fluid padding_scale">
+            <div>
+                <h2 class="text-center" id="Experience_area">Experience</h2>
+            </div>
+
+            <div class="row">
+                <div class="card mb-5 mx-auto col-sm-10" style="width: auto;">
+                    <div class="card-body">
+                        <a href='https://ainow.ai/author/akamatsu/'><h5 class="card-title str_center"><span>AI専門メディア企業での記事執筆経験</span></h5></a>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8"><p style="text-align: justify;">インターン先のAI専門メディア企業でAI専門の記事の執筆業務を4週間行いました。AI技術について再勉強させていただき、文章の書き方から記事の書き方まで経験させていただきました。</p></div>
+                                <div class="col-sm-2"></div>
+
+                                <div class="col-sm-4"></div>
+                                <div class="col-sm-4 str_center">
+                                <a href="https://ainow.ai/author/akamatsu/" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">記事はこちら</a>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="card mb-5 mx-auto col-sm-10"  style="width: auto">
+                    <div class="card-body">
+                        <h5 class="card-title str_center"><span>AI開発企業でのデータ分析・自然言語処理経験</span></h5>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8"><p style="text-align: justify;">インターン先のAI開発企業でAIを用いたデータ分析・自然言語処理の開発を6週間行いました。難しい部分もありましたが、大変勉強になりました。</p></div>
+                                <div class="col-sm-2"></div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="row">
+
+                <div class="card mx-auto col-sm-10"  style="width: auto">
+                    <div class="card-body">
+                        <h5 class="card-title str_center"><span>売上予測モデルの構築経験</span></h5>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8"><p style="text-align: justify;">企業のデータを元に気温や環境状況なども考慮した売上予測モデルの構築経験があります。このモデルの開発はグループでおこない、メンバーと協力し合って開発いたしました。</p></div>
+                                <div class="col-sm-2"></div>
+                            </div>
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="margin-bottom padding_scale">
+            <div>
+                <h2 id="Graduation_Reserch" class="text-center"><span>Graduation Research</span></h2>
+            </div>
+
+            <div class="row">
+                <div class="card mb-5 col-sm-10 mx-auto" style="width: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><span class="str_center">Small World Neural Network（SWNN）を用いた神経回路の成長予測シミュレーション</span></h5>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p>
+                                        人工知能モデルの最適化のために、スモールワールド性すなわち、任意のノードにたどり着くために、
+                                        少ないノード数を経由するだけでよいことを用いたニューラルネットワークで、脳神経回路モデルをプログラム上に構築し、
+                                        Small World Neural Network（SWNN） 等を用いたシミュレーションで脳の処理機構を明らかにすることを目的に研究しています。 
+                                    </p>
+                                
+                                </div>
+                                <div class="col-sm-2"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="margin-bottom padding_scale">
+
+            <div>
+                <h2 id="skill_area" class="text-center"><span>Skills</span></h2>
+            </div>
+
+            <div class="skill_list">
+                <div class="row">
+
+                    <div class="card mx-auto col-sm-10" style="width: auto">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card-body str_center">
+                                    
+                                    <h5>Language</h5>
+                                    <p class="card-text str_left">
+                                        python3<br>
+                                        C<br>
+                                        C++<br>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+
+                                <div class="card-body str_center">
+                                    <h5 class="card-title">Framework</h5>
+                                    <p class="card-text str_left">
+                                        TensorFlow<br>
+                                        PyTorch<br>
+                                        pandas<br>
+                                        numpy<br>
+                                        matplotlib<br>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+
+                                <div class="card-body str_center">
+                                    <h5 class="card-title">Tool</h5>
+                                    <p class="card-text str_left">
+                                        
+                                        Vscode<br>
+                                        Github<br>                                            
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                 
+        </section>
+
+        <section class="margin-bottom padding_scale">
+
+            <div>
+                <h2 id="Future_area" class="text-center"><span>Future</span></h2>
+            </div>
+            <div class="row">
+                <div  class="card mb-5 col-sm-10 mx-auto" style="width: auto;">
+                    <div class="card-body">
+                        <div class="card-title"></div>
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-8">
+                                    <p style="text-align: justify;">私はAIを用いて社会課題の解決に、貢献したいと思っております。今後もAI関連や先端技術の勉強を行って、人とAIが協力し合える世界を目指して頑張っていきたいと思っております。</p>
+                                
+                                </div>
+                                <div class="col-sm-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="text-center margin-bottom padding_scale">
+            <a href="#" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">Top</a>
+        </section>
+
+    </section>
+</main>
+
+<!-- フッター -->
+<div>
+    <footer class="text-center" style="background-color: #f8f9fa;">
+        <small>Copuright (C) 2023 haru.All right reserved.</small>
+    </footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="./static/css_js/bootstrap.min.js"></script>
+
+</body>
+</html>
