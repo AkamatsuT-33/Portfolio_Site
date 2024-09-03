@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>haru's portfolio sites</title>
+    <link rel="icon" href="./static/icon/vector-pen.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./static/css_js/bootstrap.min.css">
+    <style>
+        h2, h5 {
+            position: relative;
+            padding: 1.5rem;
+            text-align: center;
+            }
+
+        h2:before, h5:before {
+            position: absolute;
+            bottom: 15px;
+            left: calc(50% - 30px);
+            width: 60px;
+            height: 5px;
+            content: '';
+            border-radius: 5px;
+            background: lightgrey;
+        }
+
+        .main_img{
+            height: auto;
+            background-image: url('./static/images/portfolio_img_001.png');
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .str_img{
+            height: auto;
+            background-color:  rgba(248, 249, 250, 0.8);
+            margin: 0% 5%;
+        }
+
+        .str_center{
+            text-align: center;
+        }
+
+        .str_left{
+            text-align: left;
+            display: inline-block;
+        }
+
+        .bottom_margen{
+            margin-bottom: 100px;
+        }
+
+        .padding_scale{
+            padding: 50px;
+        }
+
+        .resize_img{
+            max-width: 800px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header id="top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"/>
+                <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"/>
+                </svg>
+                haru's portfolio
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="portfolio_pages.html">戻る</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<main class="container-fluid main_img" id="body_top">
+    <section class="str_img">
+        <section class="margin-bottom padding_scale">
+
+            <div>
+                <h2 id="This_site_area" class="text-center"><span>数字当てゲームデスクトップアプリ</span></h2>
+            </div>
+            <div class="card mb-5 col-sm-10 mx-auto" style="width: auto;">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p>
+                                    数字当てゲームデスクトップアプリを作成しました。SQLight3を用いて記録を保存する機能を実装しました。<br>
+                                    現在、数字を入力して間違った際にユーザーで数字を消さないといけないようになっているので、間違った際には、自動で消えるような機能を実装していきたいと思います。
+                                    また、デザイン性があまりよくないので改善していきたいと思います。
+                                </p>
+                            </div>                
+                            <div class="col-sm-2"></div>
+
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-3 str_center">
+                            <a href="https://github.com/iput2020-akamatsu/fig_search_app" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">GitHubへ</a>
+                            </div>
+                            <div class="col-sm-3 str_center">
+                                <a href="https://drive.google.com/drive/folders/1-Z7t09kouN2-RRYveuQu7UCBPi_SOjkS?usp=sharing" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">制作物へ</a>
+                            </div>
+                            <div class="col-sm-3"></div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+        </section>
+    
+        <section class="margin-bottom padding_scale">
+            <div>
+                <h2 id="About_me_area" class="text-center"><span>主な使用言語・ライブラリ</span></h2>
+            </div>
+
+            <div class="row">
+                <div class="card mb-5 col-sm-10 mx-auto" style="width: auto;">
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-sm-4"></div>
+                                <div class="col-sm-4 str_left">
+                                    <li>Python3</li>
+                                    <li>Tkinter</li>
+                                    <li>SQLight3</li>
+                                
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_01.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>トップ画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">数字当てゲームデスクトップアプリを実際に使える形でデスクトップアプリ化しました。</p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_02.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>難易度選択画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">難易度はイージー、ノーマル、ハードの3種類を作成しました。</p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_03.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>数字入力画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">
+                                    数字を入力する画面です。数字を入力してsubmitボタンを押すと結果が表示されます。
+                                </p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_04.PNG" class="card-img-top" alt="...">
+                        <img src="./static/images/fig_search_app_05.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>ゲーム画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">結果はポップアップウインドウで表示されます。</p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_11.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>エラー画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">数字以外または0~9以外の数字を入力された時に表示されます。</p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_06.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>ルールメニュー画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">
+                                    それぞれのルールを確認できます。
+                                </p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_07.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>ルール画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">
+                                    ルールメニュー画面で選んだルールが表示されます。
+                                </p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_08.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>記録メニュー画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">
+                                    記録のメニューが選べます。
+                                </p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-bottom padding_scale">
+            <div class="card mb-5 mx-auto col-sm-10">
+                <div class="row" style="padding-top: 30px;">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <img src="./static/images/fig_search_app_09.PNG" class="card-img-top" alt="...">
+                        <img src="./static/images/fig_search_app_10.PNG" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title str_center"><span>記録表示画面</span></h5>
+                    <p class="card-text">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <p style="text-align: justify;">
+                                    上記の画像は今回遊んだ記録で最短で勝利した記録が表示されています。<br>
+                                    下記の画像はSQLightに保存されている前回までの最新5件の記録が表示されています。
+                                    今回の記録はアプリ画面を閉じるか、トップ画面のExitを押すとデータベースに保存される仕組みです。
+                                </p>
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center margin-bottom padding_scale">
+            <a href="#" class="btn btn-dark btn-lg disable" tabindex="-1" role="button" aria-disabled="true">Top</a>
+        </section>
+
+    </section>
+</main>
+
+<!-- フッター -->
+<div>
+    <footer class="text-center" style="background-color: #f8f9fa;">
+        <small>Copuright (C) 2023 haru.All right reserved.</small>
+    </footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="./static/css_js/bootstrap.min.js"></script>
+
+</body>
+</html>
