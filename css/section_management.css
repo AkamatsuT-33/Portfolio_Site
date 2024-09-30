@@ -1,0 +1,8 @@
+.underline {
+    background: linear-gradient(transparent 50%, rgba(61, 70, 153, 0.548) 70%);
+    border-radius:20px 20px 20px 20px;
+}
+
+section {
+    position: relative;
+}
