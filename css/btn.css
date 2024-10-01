@@ -1,0 +1,10 @@
+#enter_web_site {
+    margin-top: 150%;
+    background-color: rgba(50, 65, 155, 0.8);
+    border-color: rgba(50, 65, 155, 0.8);
+    width: 200px;
+}
+
+#enter_web_site:hover {
+    background-color: rgba(90, 90, 145, 0.6);
+}
