@@ -1,3 +1,6 @@
+const tag_title = document.getElementById("tag_title");
+tag_title.textContent = "Haru's PortFolio Sites.";
+
 const title = document.getElementById("title");
 title.textContent = "Haru's PortFolio Sites.";
 

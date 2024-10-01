@@ -21,3 +21,11 @@
     display: inline;
     vertical-align: middle;
 }
+
+.div_title_01 {
+    position: relative;
+}
+
+.div_title_02 {
+    margin-top: 20px;
+}
