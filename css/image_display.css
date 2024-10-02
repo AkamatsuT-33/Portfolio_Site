@@ -29,3 +29,13 @@
 .div_title_02 {
     margin-top: 20px;
 }
+
+.profill_image {
+    position: absolute;
+    background-color: azure;
+    
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
