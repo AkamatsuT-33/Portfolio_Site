@@ -17,6 +17,11 @@
     border-color: black;
     border-width: 2px;
     border-style: solid;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
 }
 
 .contents_box_04 {

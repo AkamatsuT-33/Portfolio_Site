@@ -17,6 +17,11 @@
     border-color: black;
     border-width: 2px;
     border-style: solid;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
 }
 
 .contents_box_01 {
@@ -32,6 +37,7 @@
     border-color: black;
     border-width: 2px;
     border-style: solid;
+    
 }
 
 .contents_box_01 > .box_inner_01 {
@@ -45,6 +51,7 @@
     position: relative;
 
     display: flex;
+    
 }
 
 .box_inner_01 > .box_inner_left {
@@ -85,7 +92,12 @@
 
     position: absolute;
 
-    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
 }
 
 .box_inner_right > .text_01 {

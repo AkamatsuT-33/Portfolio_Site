@@ -17,6 +17,11 @@
     border-color: black;
     border-width: 2px;
     border-style: solid;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
 }
 
 .contents_box_02 {
@@ -65,4 +70,12 @@
     border-width: 1px;
     border-style: solid;
 
+}
+
+.contents > .inner_contents_box:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.contents > .inner_contents_box:active {
+    background-color: rgb(255, 255, 255, 0.8);
 }
