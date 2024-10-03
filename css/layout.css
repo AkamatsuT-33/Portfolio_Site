@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('../images/my_web_site/portfolio_img_001.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pages {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.left {
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+.right {
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+.center {
+    width: 80%;
+    min-height: 100%; /* 縦一杯に設定 */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 0px; /* 左の余白を確保 */
+    margin-right: 0px; /* 右の余白を確保 */
+    border-style: solid;
+    border-width: 1px;
+}
+
+header, main, footer {
+    width: 100%;
+}

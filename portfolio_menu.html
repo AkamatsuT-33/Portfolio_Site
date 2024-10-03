@@ -4,58 +4,98 @@
     <head>
         <meta name="robots" content="noindex">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">
+    -->
         <title id="tag_title">タグタイトル</title>
 
         <link rel="icon" href="./images/icon/vector-pen.svg" type="image/svg+xml">
-        <link rel="stylesheet" href="./css/image_display.css">
-        <link rel="stylesheet" href="./css/text_display.css">
-        <link rel="stylesheet" href="./css/section_management.css">
-        <link rel="stylesheet" href="./css/btn.css">
+
+        <link rel="stylesheet" href="./css/layout.css">
+        <link rel="stylesheet" href="./css/sections/header.css">
+        <link rel="stylesheet" href="./css/sections/footer.css">
+        <link rel="stylesheet" href="./css/sections/main.css">
+
+        <link rel="stylesheet" href="./css/contents/profile.css">
+        <link rel="stylesheet" href="./css/contents/projects.css">
+        <link rel="stylesheet" href="./css/contents/skills.css">
+        <link rel="stylesheet" href="./css/contents/future.css">
+
         <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
     </head>
 
-    <body>
-        <header>
-            <ul class="nav nav-tab">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">#####</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">!!!!!!!</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">11111</a>
-                        <a class="dropdown-item" href="#">22222</a>
-                        <a class="dropdown-item" href="#">33333</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#"></a>
+    <body class="pages">
+        <div class="left"></div>
+        <div class="center">
+            <header>
+                <div class="inner_header"></div>
+            </header>
+    
+            <main>
+                <div class="profile_container">
+                    <div class="box_title_01">title</div>
+                    <div class="contents_box_01">
+                        <div class="box_inner_01">
+                            <div class="box_inner_left">img</div>
+                            <div class="box_inner_right">
+                                <div class="name_01">name</div>
+                                <div class="text_01">text</div>
+                            </div>
+                        </div>
                     </div>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">=====</a>
-                </li>
-            </ul>
-        </header>
-
-        <main class="background_image_01">
-            <div id="profill">
-                <h2 class="section_title">Profill</h2>
-                <div id="profill_image"></div>
-                <div id="profill_text"></div>
-            </div>
-        </main>
-
-        <footer>
-            <p>©Tomoharu Akamatsu All right researved.</p>
-        </footer>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="./css/vendor/bootstrap.min.js"></script>
-        <script src="./js/display.js"></script>
-        <script src="./js/page_transition.js"></script>
+                </div>
+    
+                <div class="projects_container">
+                    <div class="box_title_02">title</div>
+                    <div class="contents_box_02">
+                        <div class="box_inner_02">
+                            <div class="contents">
+                                <div class="inner_contents_box">contents</div>
+                                <div class="inner_contents_box">contents</div>
+                                <div class="inner_contents_box">contents</div>
+                            </div>
+    
+                            <div class="contents">
+                                <div class="inner_contents_box">contents</div>
+                                <div class="inner_contents_box">contents</div>
+                                <div class="inner_contents_box">contents</div>
+                            </div>                       
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="skills_container">
+                    <div class="box_title_03">title</div>
+                    <div class="contents_box_03">
+                        <div class="box_inner_03">
+                            <div class="skill">
+                                <div class="inner_skill_box">contents</div>
+                                <div class="inner_skill_box">contents</div>
+                                <div class="inner_skill_box">contents</div>
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="future_container">
+                    <div class="box_title_04">title</div>
+                    <div class="contents_box_04">
+                        <div class="box_inner_04">
+                            <div class="contents_04">
+                                <div class="inner_contents_box">contents</div>
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+            </main>
+    
+            <footer>
+                <div class="inner_footer"></div>
+            </footer>
+        </div>
+    
+        <div class="right"></div>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="./css/vendor/bootstrap.min.js"></script>-->
     </body>
 
 </html>

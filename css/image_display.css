@@ -1,9 +1,6 @@
 .background_image_01 {
     height: 100vh;
-    background-image: url('../images/my_web_site/portfolio_img_001.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    
 
     display: flex;
     justify-content: center;
@@ -30,12 +27,4 @@
     margin-top: 20px;
 }
 
-.profill_image {
-    position: absolute;
-    background-color: azure;
-    
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    
-}
+
