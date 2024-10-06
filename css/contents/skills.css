@@ -5,6 +5,8 @@
     margin: 10px 0px 10px 0px;
     flex-direction: column;
     align-items: center;
+
+    height: 100vh;
 }
 
 .box_title_03 {
@@ -26,7 +28,7 @@
 
 .contents_box_03 {
     width: 80%;
-    height: 100%;
+    height: auto;
     margin-top: 5px;
 
     border-radius: 5px;

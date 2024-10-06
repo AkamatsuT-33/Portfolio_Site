@@ -20,6 +20,8 @@
         <link rel="stylesheet" href="./css/contents/skills.css">
         <link rel="stylesheet" href="./css/contents/future.css">
 
+        <link rel="stylesheet" href="./css/contents/popup.css">
+
         <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
     </head>
 
@@ -31,6 +33,15 @@
             </header>
     
             <main>
+                <div class="eye_catch_image">
+                    <div class="inner_eye_catch_image">
+                        When you reach for the stars, you may not quite get one,
+                        but you won't come up with a handful of mud either.
+                        <br>
+                        - Leo Burnett、1891-1971 -
+                    </div>
+                </div>
+
                 <div class="profile_container">
                     <div class="box_title_01">title</div>
                     <div class="contents_box_01">
@@ -52,15 +63,12 @@
                     <div class="contents_box_02">
                         <div class="box_inner_02">
                             <div class="contents">
-                                <div class="inner_contents_box" id="project_01">contents</div>
-                                <div class="inner_contents_box" id="project_02">contents</div>
-                                <div class="inner_contents_box" id="project_03">contents</div>
-                            </div>
-    
-                            <div class="contents">
-                                <div class="inner_contents_box" id="project_04">contents</div>
-                                <div class="inner_contents_box" id="project_05">contents</div>
-                                <div class="inner_contents_box" id="project_06">contents</div>
+                                <div class="inner_contents_box" data-popup="popup_contents_01">contents</div>
+                                <div class="inner_contents_box" data-popup="popup_contents_02">contents</div>
+                                <div class="inner_contents_box" data-popup="popup_contents_03">contents</div>
+                                <div class="inner_contents_box" data-popup="popup_contents_04">contents</div>
+                                <div class="inner_contents_box" data-popup="popup_contents_05">contents</div>
+                                <div class="inner_contents_box" data-popup="popup_contents_06">contents</div>
                             </div>                       
                         </div>
                     </div>
@@ -95,8 +103,125 @@
                 <div class="inner_footer"></div>
             </footer>
         </div>
-    
+
         <div class="right"></div>
+
+        <div id="overlay"></div>
+
+        <div id="popup_contents_01" class="popup">
+            <button class="closePopup">×</button>
+            <div class="popup_title">
+                <h2 class="inner_popup_title">popup_contents_title_01</h2>
+            </div>
+            <div class="popup_image">
+                <div class="inner_popup_image">image</div>
+            </div>
+            <div class="popup_text">
+                text
+            </div>
+            <div class="go_btn">
+                <div class="inner_go_btn">
+                    <button class="button_size">button1</button>
+                    <button class="button_size">button2</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_contents_02" class="popup">
+            <button class="closePopup">×</button>
+            <div class="popup_title">
+                <h2 class="inner_popup_title">popup_contents_title_02</h2>
+            </div>
+            <div class="popup_image">
+                <div class="inner_popup_image">image</div>
+            </div>
+            <div class="popup_text">
+                text
+            </div>
+            <div class="go_btn">
+                <div class="inner_go_btn">
+                    <button class="button_size">button1</button>
+                    <button class="button_size">button2</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_contents_03" class="popup">
+            <button class="closePopup">×</button>
+            <div class="popup_title">
+                <h2 class="inner_popup_title">popup_contents_title_03</h2>
+            </div>
+            <div class="popup_image">
+                <div class="inner_popup_image">image</div>
+            </div>
+            <div class="popup_text">
+                text
+            </div>
+            <div class="go_btn">
+                <div class="inner_go_btn">
+                    <button class="button_size">button1</button>
+                    <button class="button_size">button2</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_contents_04" class="popup">
+            <button class="closePopup">×</button>
+            <div class="popup_title">
+                <h2 class="inner_popup_title">popup_contents_title_04</h2>
+            </div>
+            <div class="popup_image">
+                <div class="inner_popup_image">image</div>
+            </div>
+            <div class="popup_text">
+                text
+            </div>
+            <div class="go_btn">
+                <div class="inner_go_btn">
+                    <button class="button_size">button1</button>
+                    <button class="button_size">button2</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_contents_05" class="popup">
+            <button class="closePopup">×</button>
+            <div class="popup_title">
+                <h2 class="inner_popup_title">popup_contents_title_05</h2>
+            </div>
+            <div class="popup_image">
+                <div class="inner_popup_image">image</div>
+            </div>
+            <div class="popup_text">
+                text
+            </div>
+            <div class="go_btn">
+                <div class="inner_go_btn">
+                    <button class="button_size">button1</button>
+                    <button class="button_size">button2</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_contents_06" class="popup">
+            <button class="closePopup">×</button>
+            <div class="popup_title">
+                <h2 class="inner_popup_title">popup_contents_title_06</h2>
+            </div>
+            <div class="popup_image">
+                <div class="inner_popup_image">image</div>
+            </div>
+            <div class="popup_text">
+                text
+            </div>
+            <div class="go_btn">
+                <div class="inner_go_btn">
+                    <button class="button_size">button1</button>
+                    <button class="button_size">button2</button>
+                </div>
+            </div>
+        </div> 
+    
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="./css/vendor/bootstrap.min.js"></script>
 
