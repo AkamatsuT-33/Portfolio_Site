@@ -37,8 +37,8 @@ document.querySelectorAll('div[data-popup]').forEach(div => {
         document.querySelectorAll('.popup').forEach(popup => {
             popup.style.display = 'none';
         });
-        document.getElementById(popupId).style.display = 'block';
-        document.getElementById('overlay').style.display = 'block';
+        document.getElementById(popupId).style.display = 'grid';
+        document.getElementById('overlay').style.display = 'grid';
     });
 });
 

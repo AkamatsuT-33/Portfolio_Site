@@ -88,9 +88,9 @@
 
     box-sizing: border-box;
 
-    border-color: black;
+    /* border-color: black;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid; */
 
     position: absolute;
 
@@ -108,9 +108,9 @@
 
     box-sizing: border-box;
 
-    border-color: black;
+    /* border-color: black;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid; */
     position: absolute;
 
     bottom: 0;

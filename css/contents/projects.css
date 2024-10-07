@@ -62,7 +62,7 @@
 }
 
 .contents > .inner_contents_box {
-    width:32%;
+    width:30%;
     height: auto;
     aspect-ratio: 1;
 
@@ -72,12 +72,94 @@
     border-width: 1px;
     border-style: solid;
 
+    border-radius: 5px 5px 5px 5px;
+
+    overflow: hidden; /* 子要素がはみ出さないようにする */
+    transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+
+    cursor: pointer;
+    vertical-align: middle;
 }
 
-.contents > .inner_contents_box:hover {
-    background-color: rgb(255, 255, 255, 0.5);
+.inner_contents_box[data-popup="popup_contents_01"] .box_images {
+    border-radius: 5px 5px 0px 0px;
+    transition: filter 0.3s ease; /* ホバー時のアニメーション */
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 16/9;
 }
 
-.contents > .inner_contents_box:active {
-    background-color: rgb(255, 255, 255, 0.8);
+.inner_contents_box[data-popup="popup_contents_02"] .box_images {
+    border-radius: 5px 5px 0px 0px;
+    transition: filter 0.3s ease; /* ホバー時のアニメーション */
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.inner_contents_box[data-popup="popup_contents_03"] .box_images {
+    border-radius: 5px 5px 0px 0px;
+    transition: filter 0.3s ease; /* ホバー時のアニメーション */
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.inner_contents_box[data-popup="popup_contents_04"] .box_images {
+    border-radius: 5px 5px 0px 0px;
+    transition: filter 0.3s ease; /* ホバー時のアニメーション */
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.inner_contents_box[data-popup="popup_contents_05"] .box_images {
+    border-radius: 5px 5px 0px 0px;
+    transition: filter 0.3s ease; /* ホバー時のアニメーション */
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.inner_contents_box[data-popup="popup_contents_06"] .box_images {
+    border-radius: 5px 5px 0px 0px;
+    transition: filter 0.3s ease; /* ホバー時のアニメーション */
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.box_text {
+    width: 100%;
+    height: 25%;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+    text-align: center;
+}
+
+.dtls_btn {
+    width: 100%;
+    height: 10%;
+    aspect-ratio: 10/1;
+
+    background-color: rgb(131, 131, 235);
+    border-radius: 5px;
+    align-items: center;
+    bottom: 0;
+    display: flex;
+}
+
+/* コンテナホバー時のスタイル */
+.inner_contents_box:hover .box_images {
+    filter: brightness(0.7); /* 画像を暗くする */
+}
+
+.inner_contents_box:hover .box_text {
+    background-color: rgba(0, 0, 0, 0.1); /* テキスト背景を暗くする */
+}
+
+.dtls_btn:hover {
+    background-color: rgb(131, 131, 235, 0.1);
 }
