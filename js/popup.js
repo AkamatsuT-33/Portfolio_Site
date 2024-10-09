@@ -31,27 +31,86 @@
 //     });
 // });
 
+// document.querySelectorAll('div[data-popup]').forEach(div => {
+//     div.addEventListener('click', function() {
+//         const popupId = this.getAttribute('data-popup');
+//         document.querySelectorAll('.popup').forEach(popup => {
+//             popup.style.display = 'none';
+//         });
+//         document.getElementById(popupId).style.display = 'grid';
+//         document.getElementById('overlay').style.display = 'block';
+//         document.querySelector('body').style.overflow = 'hidden';
+//     });
+// });
+
 document.querySelectorAll('div[data-popup]').forEach(div => {
     div.addEventListener('click', function() {
         const popupId = this.getAttribute('data-popup');
         document.querySelectorAll('.popup').forEach(popup => {
+            popup.style.visibility = 'hidden';
+            popup.style.opacity = 0;
             popup.style.display = 'none';
         });
-        document.getElementById(popupId).style.display = 'grid';
-        document.getElementById('overlay').style.display = 'grid';
+        
+        const targetPopup = document.getElementById(popupId);
+        if (targetPopup) {
+            targetPopup.style.display = 'grid';
+            targetPopup.offsetHeight;
+            targetPopup.style.visibility = 'visible';
+            targetPopup.style.opacity = 1;
+        }
+
+        const overlay = document.getElementById('overlay');
+        overlay.style.display = 'block';
+        overlay.offsetHeight;
+        overlay.style.visibility = 'visible';
+        overlay.style.opacity = 1;
+        document.documentElement.style.overflow = 'hidden';
     });
 });
 
 document.querySelectorAll('.closePopup').forEach(button => {
     button.addEventListener('click', function() {
-        this.parentElement.style.display = 'none';
-        document.getElementById('overlay').style.display = 'none';
+        console.log('Button clicked');
+        const popup = this.closest('.popup');
+        if(popup) {
+            popup.style.visibility = 'hidden';
+            popup.style.opacity = 0;
+            popup.offsetHeight;
+            popup.style.display = 'none';
+        }
+
+        const overlay = document.getElementById('overlay');
+        overlay.style.visibility = 'hidden';
+        overlay.style.opacity = 0;
+        overlay.offsetHeight;
+        overlay.style.display = 'none';
+        document.documentElement.style.overflow = 'overlay';
     });
 });
 
 document.getElementById('overlay').addEventListener('click', function() {
     document.querySelectorAll('.popup').forEach(popup => {
+        popup.style.visibility = 'hidden';
+        popup.style.opacity = 0;
+        popup.offsetHeight;
         popup.style.display = 'none';
+        
     });
+
+    this.style.visibility = 'hidden';
+    this.style.opacity = 0;
+    this.offsetHeight;
     this.style.display = 'none';
+
+    document.documentElement.style.overflow = 'overlay';
 });
+
+const top_btn = document.getElementById("popup_topBtn");
+top_btn.addEventListener('click', scroll_top);
+
+const popup_top = document.getElementById("popup_contents_01");
+
+function scroll_top() {
+    popup_top.scroll({ top: 0, behavior: "smooth" });
+}

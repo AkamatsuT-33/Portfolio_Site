@@ -11,7 +11,7 @@
 
 .box_title_04 {
     width: 80%;
-    height: 80px;
+    height: 70px;
     margin-bottom: 5px;
     display: flex;
     box-sizing: border-box;
@@ -52,7 +52,7 @@
 
   .box_title_04 #title_num_04 {
     font-size: 40px;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     position: absolute;
     z-index: 1;
     top: 0;

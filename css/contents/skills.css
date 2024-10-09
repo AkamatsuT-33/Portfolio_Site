@@ -22,7 +22,7 @@
 
 .box_title_03 {
     width: 80%;
-    height: 80px;
+    height: 70px;
     margin-bottom: 5px;
     display: flex;
     box-sizing: border-box;
@@ -70,7 +70,7 @@
 
   .box_title_03  #title_num_03 {
     font-size: 40px;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     position: absolute;
     z-index: 1;
     top: 0;
@@ -150,6 +150,24 @@
     background-color: rgb(144, 121, 173, 0.7);
 }
 
+#skill_language_text {
+    margin: 50px 0px 0px 50px;
+    padding: 0px 20px 0px 20px;
+}
+
+#skill_framework_text {
+    margin: 50px 0px 0px 50px;
+    padding: 0px 20px 0px 20px;
+}
+
+#skill_tool_text {
+    margin: 50px 0px 0px 50px;
+    padding: 0px 20px 0px 20px;
+}
+
+.contents_04 {
+    padding: 20px 80px 20px 80px;
+}
 /* .inner_skill_box >  {
     width:100%;
     height: auto;

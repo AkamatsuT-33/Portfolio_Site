@@ -12,7 +12,7 @@
 
 .box_title_02 {
     width: 80%;
-    height: 80px;
+    height: 70px;
     margin-bottom: 5px;
     display: flex;
     box-sizing: border-box;
@@ -53,7 +53,7 @@
 
   .box_title_02  #title_num_02 {
     font-size: 40px;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     position: absolute;
     z-index: 1;
     top: 0;

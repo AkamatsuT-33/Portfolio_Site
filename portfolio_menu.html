@@ -25,8 +25,9 @@
         <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
     </head>
 
-    <body class="pages">
-        <div class="left"></div>
+    <body class="pages" id="pages">
+        <button class="top_btn" id="topBtn">Top</button>
+        <!-- <div class="left"></div> -->
         <div class="center">
             <header>
                 <div class="inner_header">
@@ -39,7 +40,7 @@
                                 <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"/>
                                 <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"/>
                                 </svg>
-                                haru's portfolio
+                                <span id="nav_title">title</span>
                             </a>
                             
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,49 +52,49 @@
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                        <a class="nav-link active" aria-current="page" href="#">Top</a>
                                     </li>
                 
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#This_site_area">What is this sites ?</a>
+                                        <a class="nav-link active" aria-current="page" href="#title_01">Profile</a>
                                     </li>
                 
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#About_me_area">About me</a>
+                                        <a class="nav-link active" href="#title_02">Project</a>
                                     </li>
                 
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link active" href="#works_area" tabindex="-1" aria-disabled="true">Works</a>
-                                    </li>
+                                    </li> -->
                 
-                                    <!--<li class="nav-item dropdown">
+                                    <!-- <li class="nav-item dropdown">
                 
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                           Works
                                         </a>
                 
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#works_1">転移学習を用いた胸部Ｘ線画像モデルの作成と性能評価</a>
+                                            <a class="dropdown-item" href="#works_1"></a>
                                         </ul>
                 
-                                    </li>
-                                -->
+                                    </li> -->
+                                
                 
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#Experience_area" tabindex="-1" aria-disabled="true">Experience</a>
-                                    </li>
-                
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="#Graduation_Reserch" tabindex="-1" aria-disabled="true">Graduation Reserch</a>
+                                        <a class="nav-link active" href="#title_03" tabindex="-1" aria-disabled="true">Skill</a>
                                     </li>
                 
                                     <li class="nav-item">
+                                        <a class="nav-link active" href="#title_04" tabindex="-1" aria-disabled="true">Future</a>
+                                    </li>
+                
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link active" href="#skill_area" tabindex="-1" aria-disabled="true">Skills</a>
                                     </li>
                 
                                     <li class="nav-item">
                                         <a class="nav-link active" aria-current="page" href="#Future_area">Future</a>
-                                    </li>
+                                    </li> -->
                 
                 
                                 </ul>
@@ -107,6 +108,7 @@
             </header>
     
             <main>
+
                 <div class="eye_catch_image">
                     <div class="inner_eye_catch_image">
                         When you reach for the stars, you may not quite get one,
@@ -223,18 +225,18 @@
                         <div class="box_inner_03">
                             <div class="skill">
                                 <div class="inner_skill_box">
-                                    <h2 class="skill_title">title</h2>
-                                    contents
+                                    <h2 class="skill_title" id="skill_language_title">title</h2>
+                                    <p id="skill_language_text">contents</p>
                                 </div>
 
                                 <div class="inner_skill_box">
-                                    <h2 class="skill_title">title</h2>
-                                    contents
+                                    <h2 class="skill_title" id="skill_framework_title">title</h2>
+                                    <p id="skill_framework_text">contents</p>
                                 </div>
 
                                 <div class="inner_skill_box">
-                                    <h2 class="skill_title">title</h2>
-                                    contents
+                                    <h2 class="skill_title" id="skill_tool_title">title</h2>
+                                    <p id="skill_tool_text">contents</p>
                                 </div>
                             </div>                  
                         </div>
@@ -245,7 +247,7 @@
                     <div class="box_title_04"><span id="title_num_04">04</span><span id="title_04">title</span></div>
                     <div class="contents_box_04">
                         <div class="box_inner_04">
-                            <div class="contents_04">
+                            <div class="contents_04" id="future_text">
                                 <!-- <div class="inner_contents_box">contents</div> -->
                             </div>                  
                         </div>
@@ -258,120 +260,132 @@
             </footer>
         </div>
 
-        <div class="right"></div>
+        <!-- <div class="right"></div> -->
 
         <div id="overlay"></div>
 
-        <div id="popup_contents_01" class="popup">
-            <h2 class="inner_popup_title">転移学習を用いた胸部Ｘ線画像モデルの作成と性能評価</h2>
+        <div id="popup_contents_01" class="popup scroller">
+            <button class="top_btn" id="popup_topBtn">Top</button>
+            <h2 class="inner_popup_title" id="project_title_01">title</h2>
             <button class="closePopup">×</button>
             
             <div class="popup_image">
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSxoqjUgu5tTWR1vkjZqheVpDNIAzpZl7Het3_DZLler7zfHqwUYcDzQfB97tsdtdLsLmKjov5uXDcw/embed?start=false&loop=false&delayms=3000" frameborder="0" width=100% height=100% allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <img src="./images/top_pages_box_image/box_image_nothing_reserch.png" id="inner_popup_image">
             </div>
+            <div class="popup_text1" id="project_text_01">
+                text
+            </div>
+
+            <div class="popup_text2">
+                text1
+            </div>
+
+            <div class="popup_text3">
+                text2
+            </div>
+
+            <div class="popup_text4">
+                text3
+            </div>
+
+            <div class="popup_text5">
+                text4
+            </div>
+
+            <div class="popup_text6">
+                text5
+            </div>
+
             <div class="popup_text">
-                昨今の感染症の情勢で、疲弊している医療従事者の方を少しでも支援したいと思ったため、深層学習モデルであるVGG16、Vision Transformer、MLP-Mixerの学習済みモデルを用いて、胸部X線画像の分類モデルの転移学習を行いました。
-                画像の前処理を様々試し、学習して、評価指標には、Torchevalを用いて、評価を行いました。また、論文の内容を解釈し、今まで使ったことのなかったPyTorchの使い方を学習することができました。
-                Datasetは、データコンペティションサイト:Kaggleから取得して、学習をしました。難しい部分もありましたが、公式リファレンス、Webサイト、参考書で調査しながら、今現在（2023年2月28日）約80%の精度となっております。
-                研究期間:2022/12 - 2023/3
+                
+                
             </div>
             <div class="go_btn">
-                <button class="inner_go_btn_l">button1</button>
-                <button class="inner_go_btn_c">button2</button>
-                <button class="inner_go_btn_r">button3</button>
+                
             </div>
         </div>
 
-        <div id="popup_contents_02" class="popup">
-            <h2 class="inner_popup_title">胸部X線画像分類デスクトップアプリ</h2>
+        <div id="popup_contents_02" class="popup scroller">
+            <button class="top_btn" id="popup_topBtn">Top</button>
+            <h2 class="inner_popup_title" id="project_title_02">title</h2>
             <button class="closePopup">×</button>
             
             <div class="popup_image">
                 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSpPVZ1Hwd7kc6QnRCKJCYK4GykeFW_57rfus_KkTuUpddKg1DhCT4joeX14gCsVi07LyqAsDnuH5yE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
-            <div class="popup_text">
-                精度のよかったモデルを用いたデスクトップアプリケーションを作成しました。<br>製作期間:2023/3 -2023/7
-            </div>
-            <div class="go_btn">
-                <button class="inner_go_btn_l">button1</button>
-                <button class="inner_go_btn_c">button2</button>
-                <button class="inner_go_btn_r">button3</button>
+            <div class="popup_text" id="project_text_02">text</div>
+            <h3 id="h3_title_02">title</h3>
+                
             </div>
         </div>
 
-        <div id="popup_contents_03" class="popup">
-            <h2 class="inner_popup_title">数字あてゲームデスクトップアプリ</h2>
+        <div id="popup_contents_03" class="popup scroller">
+            <button class="top_btn" id="popup_topBtn">Top</button>
+            <h2 class="inner_popup_title" id="project_title_03">title</h2>
             <button class="closePopup">×</button>
             
             <div class="popup_image">
                 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQL2r_3jN0BxbMjSCePI30EToYdZ2iHLOhoZj-ukpp-z_ONwTxCARajzQlPKNrIvd1VAiL1a1wGc7_2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
-            <div class="popup_text">
-                コマンドラインでの数字当てゲームをデスクトップアプリ化しました。sqlightも用いて記録の保存をできるようにしました。
-            </div>
-            <div class="go_btn">
-                <button class="inner_go_btn_l">button1</button>
-                <button class="inner_go_btn_c">button2</button>
-                <button class="inner_go_btn_r">button3</button>
-            </div>
-        </div>
 
-        <div id="popup_contents_04" class="popup">
-            <h2 class="inner_popup_title">数字あてゲーム（コマンドライン）</h2>
-            <button class="closePopup">×</button>
-            
-            <div class="popup_image">
-                <div class="inner_popup_image"></div>
-            </div>
-            <div class="popup_text">
-                コマンドラインで遊べる数字当てゲームを作成しました。関数を別ファイルにして、整備しやすいようにしました。
-            </div>
-            <div class="go_btn">
-                <button class="inner_go_btn_l">button1</button>
-                <button class="inner_go_btn_c">button2</button>
-                <button class="inner_go_btn_r">button3</button>
-            </div>
-        </div>
-
-        <div id="popup_contents_05" class="popup">
-            <h2 class="inner_popup_title">QRコードデスクトップアプリ</h2>
-            <button class="closePopup">×</button>
-            
-            <div class="popup_image">
-                <div class="inner_popup_image"></div>
-            </div>
-            <div class="popup_text">
-                デスクトップアプリケーションの作成の練習もかねて、QRコードを作成するアプリを開発しました。
-                URL等からQRコードを生成して、表示することやpngファイルとして保存することができるようにしました。
-                GUIのフレームワークはTkinterを用いて開発しました。
-            </div>
-            <div class="go_btn">
-                <button class="inner_go_btn_l">button1</button>
-                <button class="inner_go_btn_c">button2</button>
-                <button class="inner_go_btn_r">button3</button>
-            </div>
-        </div>
-
-        <div id="popup_contents_06" class="popup">
-            <h2 class="inner_popup_title">ポートフォリオサイト</h2>
-            <button class="closePopup">×</button>
-            
-            <div class="popup_image">
-                <div class="inner_popup_image"></div>
-            </div>
-            <div class="popup_text">
+            <div class="popup_text" id="project_text_03">
                 text
             </div>
             <div class="go_btn">
-                <button class="inner_go_btn_l">button1</button>
-                <button class="inner_go_btn_c">button2</button>
-                <button class="inner_go_btn_r">button3</button>
+                
+            </div>
+        </div>
+
+        <div id="popup_contents_04" class="popup scroller">
+            <button class="top_btn" id="popup_topBtn">Top</button>
+            <h2 class="inner_popup_title" id="project_title_04">title</h2>
+            <button class="closePopup">×</button>
+            
+            <div class="popup_image">
+                <img src="./images/top_pages_box_image/box_image_nothing_program.png" id="inner_popup_image">
+            </div>
+            <div class="popup_text" id="project_text_04">
+                text
+            </div>
+            <div class="go_btn">
+                
+            </div>
+        </div>
+
+        <div id="popup_contents_05" class="popup scroller">
+            <button class="top_btn" id="popup_topBtn">Top</button>
+            <h2 class="inner_popup_title" id="project_title_05">title</h2>
+            <button class="closePopup">×</button>
+            
+            <div class="popup_image">
+                <img src="./images/top_pages_box_image/QR_Code_App_01.PNG" id="inner_popup_image">
+            </div>
+            <div class="popup_text" id="project_text_05">text</div>
+            <div class="go_btn">
+                
+            </div>
+        </div>
+
+        <div id="popup_contents_06" class="popup scroller">
+            <button class="top_btn" id="popup_topBtn">Top</button>
+            <h2 class="inner_popup_title" id="project_title_06">title</h2>
+            <button class="closePopup">×</button>
+            
+            <div class="popup_image">
+                <img src="./images/top_pages_box_image/box_image_nothing_program.png" id="inner_popup_image">
+            </div>
+            <div class="popup_text" id="project_text_06">
+                text
+            </div>
+            <div class="go_btn">
+                
             </div>
         </div>
     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="./css/vendor/bootstrap.min.js"></script>
 
+        <script src="./js/main_page.js"></script>
         <script src="./js/text_display.js"></script>
         <script src="./js/popup.js"></script>
     </body>
