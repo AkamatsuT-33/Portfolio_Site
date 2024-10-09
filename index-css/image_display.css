@@ -1,13 +1,15 @@
 .background_image_01 {
     height: 100vh;
-    background-image: url('../images/my_web_site/portfolio_img_001.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-image: url('../images/my_web_site/portfolio_background_img.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .icon_image {
@@ -29,3 +31,5 @@
 .div_title_02 {
     margin-top: 20px;
 }
+
+
