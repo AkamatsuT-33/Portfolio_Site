@@ -4,6 +4,18 @@ tag_title.textContent = "Haru's PortFolio Sites.";
 const nav_title = document.getElementById("nav_title");
 nav_title.innerHTML = "Haru's PortFolio Sites.";
 
+const eye_catch_title = document.getElementById("eye_catch_title");
+eye_catch_title.innerHTML = "\
+                                <span style=\'text-align: center;\'><h1>Haru's PortFolio Sites.</h1></span>\
+                                <br>\
+                                <br>\
+                                <p>\
+                                    When you reach for the stars, you may not quite get one,\
+                                    <br>but you won't come up with a handful of mud either.\
+                                </p>\
+                                <span style=\'text-align: center;\'><p>Leo Burnett 1891-1971</p>\
+                                ";
+
 // 一段目タイトル
 const profile_title = document.getElementById("title_01");
 profile_title.textContent = "Profile";
@@ -75,27 +87,29 @@ skill_language_title.innerHTML = "Language";
 
 const skill_language_text = document.getElementById("skill_language_text");
 skill_language_text.innerHTML = '\
-                                <li>\
-                                    Python3\
-                                </li>\
-                                <li>\
-                                    Java\
-                                </li>\
-                                <li>\
-                                    HTML\
-                                </li>\
-                                <li>\
-                                    CSS\
-                                </li>\
-                                <li>\
-                                    JavaScript\
-                                </li>\
-                                <li>\
-                                    C\
-                                </li>\
-                                <li>\
-                                    C++\
-                                </li>\
+                                <ul>\
+                                    <li>\
+                                        Python3\
+                                    </li>\
+                                    <li>\
+                                        Java\
+                                    </li>\
+                                    <li>\
+                                        HTML\
+                                    </li>\
+                                    <li>\
+                                        CSS\
+                                    </li>\
+                                    <li>\
+                                        JavaScript\
+                                    </li>\
+                                    <li>\
+                                        C\
+                                    </li>\
+                                    <li>\
+                                        C++\
+                                    </li>\
+                                <ul>\
                                 ';
 
 const skill_framework_title = document.getElementById("skill_framework_title");
@@ -103,21 +117,23 @@ skill_framework_title.innerHTML = "Framework";
 
 const skill_framework_text = document.getElementById("skill_framework_text");
 skill_framework_text.innerHTML = '\
-                                <li>\
-                                    TensorFlow\
-                                </li>\
-                                <li>\
-                                    PyTorch\
-                                </li>\
-                                <li>\
-                                    pandas\
-                                </li>\
-                                <li>\
-                                    numpy\
-                                </li>\
-                                <li>\
-                                    matplotlib\
-                                </li>\
+                                <ul>\
+                                    <li>\
+                                        TensorFlow\
+                                    </li>\
+                                    <li>\
+                                        PyTorch\
+                                    </li>\
+                                    <li>\
+                                        pandas\
+                                    </li>\
+                                    <li>\
+                                        numpy\
+                                    </li>\
+                                    <li>\
+                                        matplotlib\
+                                    </li>\
+                                <ul>\
                                 ';
 
 const skill_tool_title = document.getElementById("skill_tool_title");
@@ -125,6 +141,7 @@ skill_tool_title.innerHTML = "Tool";
 
 const skill_tool_text = document.getElementById("skill_tool_text");
 skill_tool_text.innerHTML = '\
+                            <ul>\
                                 <li>\
                                     Vscode\
                                 </li>\
@@ -137,7 +154,11 @@ skill_tool_text.innerHTML = '\
                                 <li>\
                                     AWS\
                                 </li>\
-                                ';
+                                <li>\
+                                    SourceTree\
+                                </li>\
+                            <ul>\
+                            ';
 
 // 四段目タイトル
 const future_title = document.getElementById("title_04");
