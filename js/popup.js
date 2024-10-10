@@ -46,6 +46,7 @@
 document.querySelectorAll('div[data-popup]').forEach(div => {
     div.addEventListener('click', function() {
         const popupId = this.getAttribute('data-popup');
+        console.log(popupId);
         document.querySelectorAll('.popup').forEach(popup => {
             popup.style.visibility = 'hidden';
             popup.style.opacity = 0;
@@ -53,6 +54,7 @@ document.querySelectorAll('div[data-popup]').forEach(div => {
         });
         
         const targetPopup = document.getElementById(popupId);
+        console.log(targetPopup);
         if (targetPopup) {
             targetPopup.style.display = 'grid';
             targetPopup.offsetHeight;
@@ -74,6 +76,7 @@ document.querySelectorAll('.closePopup').forEach(button => {
         console.log('Button clicked');
         const popup = this.closest('.popup');
         if(popup) {
+            popup.scroll({ top: 0, behavior: "auto" });
             popup.style.visibility = 'hidden';
             popup.style.opacity = 0;
             popup.offsetHeight;
@@ -85,17 +88,17 @@ document.querySelectorAll('.closePopup').forEach(button => {
         overlay.style.opacity = 0;
         overlay.offsetHeight;
         overlay.style.display = 'none';
-        document.documentElement.style.overflow = 'overlay';
+        document.documentElement.style.overflow = 'auto';
     });
 });
 
 document.getElementById('overlay').addEventListener('click', function() {
     document.querySelectorAll('.popup').forEach(popup => {
+        popup.scroll({ top: 0, behavior: "auto" });
         popup.style.visibility = 'hidden';
         popup.style.opacity = 0;
         popup.offsetHeight;
         popup.style.display = 'none';
-        
     });
 
     this.style.visibility = 'hidden';
@@ -103,14 +106,30 @@ document.getElementById('overlay').addEventListener('click', function() {
     this.offsetHeight;
     this.style.display = 'none';
 
-    document.documentElement.style.overflow = 'overlay';
+    document.documentElement.style.overflow = 'auto';
 });
 
-const top_btn = document.getElementById("popup_topBtn");
-top_btn.addEventListener('click', scroll_top);
+// const top_btn = document.getElementById("popup_topBtn");
+// top_btn.addEventListener('click', scroll_top);
 
-const popup_top = document.getElementById("popup_contents_01");
+// const popup_top = document.getElementById("popup_contents_01");
 
-function scroll_top() {
-    popup_top.scroll({ top: 0, behavior: "smooth" });
-}
+// function scroll_top() {
+//     popup_top.scroll({ top: 0, behavior: "smooth" });
+// }
+
+
+
+const buttons = document.querySelectorAll('.top_btn_popup');
+
+buttons.forEach(button => {
+    const popup_id = button.getAttribute('data-popup_top-id');
+    console.log(popup_id);
+    const popup = document.getElementById(`popup_contents_${popup_id}`);
+    console.log(popup);
+    popup.addEventListener('click', function scroll_top() {
+        popup.scroll({ top: 0, behavior: "smooth" });
+    });
+})
+
+

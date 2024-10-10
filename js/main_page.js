@@ -16,3 +16,10 @@ window.addEventListener('scroll', () => {
         top_button.style.visibility = 'hidden';
     }
   });
+
+window.onload = function() {
+    setTimeout(function() {
+        document.getElementById('loding_image').style.display = 'none';
+        document.getElementById('page_container').style.display = 'flex';
+    }, 2000); // 3秒後に画像を非表示にしてコンテンツを表示
+};
