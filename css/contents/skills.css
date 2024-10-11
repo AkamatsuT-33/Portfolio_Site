@@ -331,17 +331,17 @@
     
     #skill_language_text {
         margin: 20px 0px 20px 00px;
-        padding: 0px 100px 0px 100px;
+        /* padding: 0px 100px 0px 100px; */
     }
     
     #skill_framework_text {
         margin: 20px 0px 20px 0px;
-        padding: 0px 100px 0px 100px;
+        /* padding: 0px 100px 0px 100px; */
     }
     
     #skill_tool_text {
         margin: 20px 0px 20px 0px;
-        padding: 0px 100px 0px 100px;
+        /* padding: 0px 100px 0px 100px; */
     }
     
     .contents_04 {
