@@ -43,6 +43,29 @@ project2_popup_text3.innerHTML = '胸部X線画像分類モデルを実際に使
 
 
 
+const project_title_03 = document.getElementById('project_title_03');
+project_title_03.innerHTML = '数字当てデスクトップアプリ';
+
+const project_text_03 = document.getElementById('project_text_03');
+project_text_03.innerHTML = '\
+                            精度のよかったモデルで胸部X線画像デスクトップアプリをFlask、Electronを用いて作成しました。\
+                            ユーザーが胸部X線画像をアップロードし、その画像を4種類（新型コロナウイルス肺炎、灰白濁の肺、通常状態の肺、細菌性肺炎）に分類予測し、結果を表示するアプリケーションです。\
+                            医療機関で使用されることを前提に作成しており、個人情報といった観点からデスクトップアプリケーションとして完結させました。\
+                            また、病院内ネットワークでの使用も想定し、サーバー上に載せ、転用できるようにできるようにFlaskで実装をしました。\
+                            現在、Python環境がないPCでは、扱うことができないので、パッケージ化をすることやアプリ終了時、Electronからの子プロセスの終了が不安定なので、今後に改善していきたいと思っております。\
+                            <br>製作期間:2023/3 -2023/7\
+                            ';
+
+
+
+const project_title_04 = document.getElementById('project_title_04');
+project_title_04.innerHTML = '数字当てコマンドラインアプリ';
+
+const project_text_04 = document.getElementById('project_text_04');
+project_text_04.innerHTML = '\
+                            コマンドラインで遊べる数字当てゲームを作成しました。関数を別ファイルにして、整備しやすいようにしました。\
+                            <br>製作期間:2021/10 -2021/11\
+                            ';
 
 
 
