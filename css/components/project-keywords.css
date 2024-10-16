@@ -1,0 +1,16 @@
+.keywords_title {
+    font-size: large;
+    background: linear-gradient(transparent 50%, yellow 50%);
+    margin: 5px;
+}
+
+.keywords {
+    color:#fff;
+    border-style:groove;
+    box-sizing: border-box;
+    border-color: rgb(144, 121, 173);
+    border-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(144, 121, 173, 0.7);
+    padding: 2px 5px 2px 5px;
+}

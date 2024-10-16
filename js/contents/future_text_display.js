@@ -1,5 +1,5 @@
-// 四段目タイトル
-const future_title = document.getElementById("title_04");
+// ６段目タイトル
+const future_title = document.getElementById("title_06");
 future_title.innerHTML = "Future";
 
 const future_text = document.getElementById("future_text");

@@ -1,4 +1,4 @@
-.future_container {
+.research_container {
     display: flex;
     /* justify-content: center; */
     box-sizing: border-box;
@@ -9,7 +9,7 @@
     /* height: 100vh; */
 }
 
-.box_title_06 {
+.box_title_05 {
     width: 80%;
     height: 70px;
     margin-bottom: 5px;
@@ -38,7 +38,7 @@
     overflow: hidden;
 }
 
-.box_title_06:before {
+.box_title_05:before {
     position: absolute;
     top: -150%;
     left: -100px;
@@ -50,7 +50,7 @@
     background: rgb(144, 121, 173, 0.7);
   }
 
-  .box_title_06 #title_num_06 {
+  .box_title_05 #title_num_05 {
     font-size: 40px;
     /* font-size: 3rem; */
     position: absolute;
@@ -63,7 +63,7 @@
     color: rgb(243, 242, 243);
   }
 
-.contents_box_06 {
+.contents_box_05 {
     width: 80%;
     height: auto;
     margin-top: 5px;
@@ -95,7 +95,7 @@
 
 } */
 
-.contents_06 {
+.contents_05 {
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -103,7 +103,7 @@
     padding: 30px;
 }
 
-.contents_06 .inner_contents_box {
+.contents_05 .inner_contents_box {
  
     border-color: black;
     border-width: 1px;
@@ -117,7 +117,7 @@
 
 
 @media (width < 800px) {
-    .future_container {
+    .research_container {
         display: flex;
         /* justify-content: center; */
         /* box-sizing: border-box; */
@@ -128,7 +128,7 @@
         /* height: 100vh; */
     }
     
-    .box_title_06 {
+    .box_title_05 {
         width: 80%;
         height: 70px;
         margin-bottom: 5px;
@@ -157,7 +157,7 @@
         overflow: hidden;
     }
     
-    .box_title_06:before {
+    .box_title_05:before {
         position: absolute;
         top: -150%;
         left: -100px;
@@ -169,7 +169,7 @@
         background: rgb(144, 121, 173, 0.7);
       }
     
-    .box_title_06 #title_num_06 {
+    .box_title_05 #title_num_05 {
         font-size: 40px;
         /* font-size: 3rem; */
         position: absolute;
@@ -182,7 +182,7 @@
         color: rgb(243, 242, 243);
     }
     
-    .contents_box_06 {
+    .contents_box_05 {
         width: 80%;
         height: auto;
         margin-top: 5px;
