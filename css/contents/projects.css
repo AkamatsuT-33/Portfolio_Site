@@ -156,17 +156,27 @@
     box-shadow: 0 8px 10px 5px rgb(0, 0, 0, 0);
     transition: box-shadow 0.1s ease-out, transform 0s ease-out;
     box-sizing: border-box;
+    justify-content: center;
     align-items: center;
 }
 
 .card_position {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: center;
+    align-items: center;
     bottom: 0;
+    margin: 10px 10px 10px 10px;
 }
 
 .card .btn-color {
+    background-color: rgba(144, 121, 173, 0.7);
+    border-color: rgb(144, 121, 173, 0.7);
+    border-width: 0px;
+    border-style: solid;
+}
+
+.card_position .btn-color {
     background-color: rgba(144, 121, 173, 0.7);
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 0px;
@@ -193,8 +203,7 @@
 }
 
 .card_img {
-    /* height: 50%;
-    width: 80px; */
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 

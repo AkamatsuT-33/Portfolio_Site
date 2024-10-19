@@ -76,7 +76,7 @@
     margin-top: 5px;
 
     border-radius: 5px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     position: relative;
 
@@ -115,10 +115,32 @@
     padding: 5px 0px 5px 0px;
 }
 
+.contents_box_03 .ex_skill_box {
+    width:100%;
+    height: auto;
+
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+    margin: 5px 0px 5px 0px;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ex_skill_box .inner_ex_skill_box {
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+}
+
 .skill .inner_skill_box {
     width:32%;
     height: auto;
-    aspect-ratio: 1;
+    /* aspect-ratio: 1; */
 
     margin: 0px 5px 0px 5px;
 
@@ -140,18 +162,46 @@
 }
 
 #skill_language_text {
-    margin: 50px 0px 0px 50px;
-    padding: 0px 20px 0px 20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+#skill_language_text table {
+    table-layout: fixed;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+table td {
+    border-bottom: 1px solid rgb(144, 121, 173, 0.7);
 }
 
 #skill_framework_text {
-    margin: 50px 0px 0px 50px;
-    padding: 0px 20px 0px 20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+#skill_framework_text table {
+    table-layout: fixed;
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 
 #skill_tool_text {
-    margin: 50px 0px 0px 50px;
-    padding: 0px 20px 0px 20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+#skill_tool_text table {
+    table-layout: fixed;
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 
 .contents_04 {
@@ -254,7 +304,7 @@
         margin-top: 5px;
     
         border-radius: 5px;
-        display: flex;
+        display: block;
         align-items: center;
         position: relative;
     
@@ -288,17 +338,39 @@
     .box_inner_03 .skill {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     
         padding: 5px 0px 5px 0px;
+    }
+
+    .contents_box_03 .ex_skill_box {
+        width:100%;
+        height: auto;
+    
+        box-sizing: border-box;
+        padding: 0px 20px 0px 20px;
+        margin: 5px 0px 5px 0px;
+        
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .ex_skill_box .inner_ex_skill_box {
+        padding: 10px 0px 10px 0px;
+        align-items: center;
     }
     
     .skill .inner_skill_box {
         width:80%;
         height: auto;
-        aspect-ratio: 10/3;
+        /* aspect-ratio: 10/3; */
     
-        margin: 10px 0px 10px 0px;
+        margin: 10px 10px 10px 10px;
     
         background-color: rgb(243, 242, 243);
     
@@ -318,18 +390,46 @@
     }
     
     #skill_language_text {
-        margin: 20px 0px 20px 00px;
-        /* padding: 0px 100px 0px 100px; */
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    #skill_language_text table {
+        table-layout: fixed;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    table td {
+        border-bottom: 1px solid rgb(144, 121, 173, 0.7);
     }
     
     #skill_framework_text {
-        margin: 20px 0px 20px 0px;
-        /* padding: 0px 100px 0px 100px; */
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    #skill_framework_text table {
+        table-layout: fixed;
+        width: 100%;
+        height: auto;
+        text-align: center;
     }
     
     #skill_tool_text {
-        margin: 20px 0px 20px 0px;
-        /* padding: 0px 100px 0px 100px; */
+        width: 100%;
+        height: 100%;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    #skill_tool_text table {
+        table-layout: fixed;
+        width: 100%;
+        height: auto;
+        text-align: center;
     }
     
     .contents_04 {

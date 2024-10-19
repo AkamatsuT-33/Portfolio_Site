@@ -12,6 +12,8 @@ box_text_01_1.innerHTML = `<span class="keywords_title">-KeyWord-</span>`;
 box_text_01_2.innerHTML = `
                             <span class='keywords'>#AI</span>
                             <span class='keywords'>#Python3</span>
+                            <span class='keywords'>#Tensorflow</span>
+                            <span class='keywords'>#PyTorch</span>
                         `;
 
 const box_title_02 = document.getElementById("box_title_02");

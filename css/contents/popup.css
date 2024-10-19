@@ -147,6 +147,11 @@
     background-color: rgb(144, 121, 173, 0.7);
 }
 
+.closePopup:active {
+    background-color: rgb(144, 121, 173);
+    border-color: rgb(144, 121, 173);
+}
+
 /* .popup_head {
     width: 80%;
     height: auto;
@@ -203,9 +208,19 @@
     
     border-style: solid;
     border-width: 1px;
-    font-size: small;
 
     padding: 2% 2% 2% 2%;
+}
+
+.popup_text1 table td {
+    border: 1px solid rgb(144, 121, 173, 0.7);
+    padding: 10px 10px 10px 10px;
+    margin: 2% 2% 2% 2%;
+}
+
+.popup_text1 table th {
+    border: 1px solid rgb(144, 121, 173, 0.7);
+    padding: 10px 10px 10px 10px;
 }
 
 .popup_mini_contents_02 {
@@ -221,11 +236,14 @@
     width: 100%;
     height: auto;
 
-    border-style: solid;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .popup_image2 {
@@ -237,20 +255,22 @@
 }
 
 .popup_text2 {
-    display: block;
+    display: flex;
     
     width: 100%;
     height: auto;
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
 
     border-style: solid;
     border-width: 1px;
-    font-size: small;
+
+    justify-content: center;
+    align-items: center;
     
     padding: 2% 2% 2% 2%;
 }
@@ -267,11 +287,13 @@
     width: 100%;
     height: auto;
 
-    border-style: solid;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .popup_image3 {
@@ -290,12 +312,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     border-style: solid;
-    border-width: 1px;
-    font-size: small;
+    border-width: 2px;
+
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_04 {
@@ -309,12 +332,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image4 {
@@ -334,11 +358,12 @@
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 2px 2px 2px 2px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_05 {
@@ -352,12 +377,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image5 {
@@ -376,12 +402,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_06 {
@@ -396,12 +423,13 @@
 
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image6 {
@@ -420,12 +448,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_07 {
@@ -439,12 +468,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image7 {
@@ -464,12 +494,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_08 {
@@ -483,12 +514,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image8 {
@@ -508,12 +540,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_09 {
@@ -527,12 +560,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image9 {
@@ -552,12 +586,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_10 {
@@ -571,12 +606,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image10 {
@@ -596,12 +632,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_11 {
@@ -615,12 +652,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image11 {
@@ -640,12 +678,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_12 {
@@ -659,12 +698,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image12 {
@@ -684,12 +724,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 .popup_mini_contents_13 {
@@ -703,12 +744,13 @@
     display: block;
     width: 100%;
     height: auto;
-
-    border-style: solid;
+    text-align: center;
+    /* border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; */
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .popup_image13 {
@@ -728,12 +770,13 @@
 
     border-style: solid;
     border-color: rgb(144, 121, 173, 0.7);
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 3px 3px 3px 3px;
     margin-bottom: 50px;
     /* border-style: solid;
     border-width: 1px; */
     /* font-size: small; */
+    padding: 15px 15px 15px 15px;
 }
 
 #inner_popup_image {
@@ -778,7 +821,12 @@
 }
 
 .go_btn:hover {
-    background-color:  rgb(144, 121, 173, 0.3);
+    background-color:  rgb(144, 121, 173, 0.7);
+}
+
+.go_btn:active {
+    background-color: rgb(144, 121, 173);
+    border-color: red;
 }
 
 .inner_go_btn_l {
@@ -954,6 +1002,11 @@
         background-color: rgb(144, 121, 173, 0.7);
     }
 
+    .closePopup:active {
+        background-color: rgb(144, 121, 173);
+        border-color: rgb(144, 121, 173);
+    }
+
     /* .popup_head {
         width: 80%;
         height: auto;
@@ -979,7 +1032,7 @@
         
         width: 100%;
         height: auto;
-
+        text-align: center;
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
@@ -997,7 +1050,7 @@
     }
 
     .popup_text1 {
-        display: block;
+        display: flex;
         width: 100%;
         height: auto;
 
@@ -1009,7 +1062,23 @@
         
         border-style: solid;
         border-width: 1px;
-        font-size: small;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup_text1 table {
+        table-layout:fixed;
+        width: 100%;
+    }
+
+    .popup_text1 table td {
+        border: 1px solid rgb(144, 121, 173, 0.7);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .popup_text1 table th {
+        border: 1px solid rgb(144, 121, 173, 0.7);
+        padding: 10px 10px 10px 10px;
     }
 
     .popup_mini_contents_02 {
@@ -1024,12 +1093,14 @@
         
         width: 100%;
         height: auto;
-
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
+
+        text-align: center;
     }
 
     .popup_image2 {
@@ -1041,7 +1112,7 @@
     }
 
     .popup_text2 {
-        display: block;
+        display: flex;
         
         width: 100%;
         height: auto;
@@ -1052,9 +1123,11 @@
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
 
+        justify-content: center;
+    align-items: center;
+
         border-style: solid;
         border-width: 1px;
-        font-size: small;
     }
 
     .popup_mini_contents_03 {
@@ -1068,12 +1141,13 @@
         display: block;
         width: 100%;
         height: auto;
-
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
+        text-align: center;
     }
 
     .popup_image3 {
@@ -1096,8 +1170,7 @@
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         border-style: solid;
-        border-width: 1px;
-        font-size: small;
+        border-width: 2px;
     }
 
     .popup_mini_contents_04 {
@@ -1111,11 +1184,11 @@
         display: block;
         width: 100%;
         height: auto;
-
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
 
@@ -1135,7 +1208,7 @@
 
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1154,11 +1227,11 @@
         display: block;
         width: 100%;
         height: auto;
-
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
 
@@ -1178,7 +1251,7 @@
 
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1198,11 +1271,11 @@
 
         width: 100%;
         height: auto;
-
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
 
@@ -1222,7 +1295,7 @@
 
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1241,11 +1314,11 @@
         display: block;
         width: 100%;
         height: auto;
-
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
 
@@ -1266,7 +1339,7 @@
 
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1285,11 +1358,11 @@
         display: block;
         width: 100%;
         height: auto;
-    
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
     
@@ -1310,7 +1383,7 @@
     
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1329,11 +1402,11 @@
         display: block;
         width: 100%;
         height: auto;
-    
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
     
@@ -1354,7 +1427,7 @@
     
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1373,11 +1446,11 @@
         display: block;
         width: 100%;
         height: auto;
-    
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
     
@@ -1398,7 +1471,7 @@
     
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1417,11 +1490,11 @@
         display: block;
         width: 100%;
         height: auto;
-    
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
     
@@ -1442,7 +1515,7 @@
     
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1461,11 +1534,11 @@
         display: block;
         width: 100%;
         height: auto;
-    
-        border-style: solid;
+        text-align: center;
+        /* border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
         border-width: 3px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px; */
         margin-top: 20px;
     }
     
@@ -1486,7 +1559,7 @@
     
         border-style: solid;
         border-color: rgb(144, 121, 173, 0.7);
-        border-width: 3px;
+        border-width: 2px;
         border-radius: 3px 3px 3px 3px;
         margin-bottom: 50px;
         /* border-style: solid;
@@ -1537,6 +1610,11 @@
 
     .go_btn:hover {
         background-color:  rgb(144, 121, 173, 0.3);
+    }
+
+    .go_btn:active {
+        background-color: rgb(144, 121, 173);
+        border-color: rgb(144, 121, 173);
     }
 
     .inner_go_btn_l {
