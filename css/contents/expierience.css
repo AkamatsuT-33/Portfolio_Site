@@ -1,4 +1,4 @@
-.skills_container {
+.experience_container {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
     /* height: 100vh; */
 }
 
-.box_title_03 {
+.box_title_04 {
     width: 80%;
     height: 70px;
     margin-bottom: 5px;
@@ -45,7 +45,7 @@
     border-style: solid;
 }
 
-.box_title_03:before {
+.box_title_04:before {
     position: absolute;
     top: -150%;
     left: -100px;
@@ -57,7 +57,7 @@
     background: rgb(144, 121, 173, 0.7);
   }
 
-  .box_title_03  #title_num_03 {
+  .box_title_04  #title_num_04 {
     font-size: 40px;
     /* font-size: 3rem; */
     position: absolute;
@@ -70,13 +70,13 @@
     color: #fff;
   }
 
-.contents_box_03 {
+.contents_box_04 {
     width: 80%;
     height: auto;
     margin-top: 5px;
 
     border-radius: 5px;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     position: relative;
 
@@ -92,7 +92,7 @@
 
 }
 
-.contents_box_03 .box_inner_03 {
+.contents_box_04 .box_inner_04 {
     width: 100%;
     height: 100%;
 
@@ -107,42 +107,20 @@
     /* background-color: rgb(243, 242, 243, 0.7); */
 }
 
-.box_inner_03 .skill {
+.box_inner_04 .experience {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
-    padding: 5px 0px 5px 0px;
+    padding: 10px 10px 10px 10px;
 }
 
-.contents_box_03 .ex_skill_box {
-    width:100%;
-    height: auto;
-
-    box-sizing: border-box;
-    padding: 0px 20px 0px 20px;
-    margin: 5px 0px 5px 0px;
-    
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    border-radius: 10px 10px 10px 10px;
-}
-
-.ex_skill_box .inner_ex_skill_box {
-    padding: 10px 0px 10px 0px;
-    align-items: center;
-}
-
-.skill .inner_skill_box {
-    width:32%;
+.experience .inner_experience_box {
+    width:90%;
     height: auto;
     /* aspect-ratio: 1; */
 
-    margin: 0px 5px 0px 5px;
+    margin: 10px 5px 10px 5px;
 
     background-color: rgb(243, 242, 243);
 
@@ -150,7 +128,7 @@
     box-shadow: 0 4px 5px 5px rgb(0, 0, 0, 0.15);
 }
 
-.inner_skill_box .skill_title {
+.inner_experience_box .experience_title {
     width:100%;
     height: auto;
 
@@ -161,47 +139,19 @@
     background-color: rgb(144, 121, 173, 0.7);
 }
 
-#skill_language_text {
-    width: 100%;
-    height: 100%;
-    padding: 20px 20px 20px 20px;
+#experience_text_01 {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
-#skill_language_text table {
-    table-layout: fixed;
-    width: 100%;
-    height: auto;
-    text-align: center;
+#experience_text_02 {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
-table td {
-    border-bottom: 1px solid rgb(144, 121, 173, 0.7);
-}
-
-#skill_framework_text {
-    width: 100%;
-    height: 100%;
-    padding: 20px 20px 20px 20px;
-}
-
-#skill_framework_text table {
-    table-layout: fixed;
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-
-#skill_tool_text {
-    width: 100%;
-    height: 100%;
-    padding: 20px 20px 20px 20px;
-}
-
-#skill_tool_text table {
-    table-layout: fixed;
-    width: 100%;
-    height: auto;
-    text-align: center;
+#experience_text_03 {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .contents_04 {
@@ -228,7 +178,7 @@ table td {
 
 
 @media (width < 800px) {
-    .skills_container {
+    .experience_container {
         display: flex;
         justify-content: center;
         /* box-sizing: border-box; */
@@ -237,7 +187,7 @@ table td {
         height: auto;
     }
     
-    .box_title_03 {
+    .box_title_04 {
         width: 80%;
         height: 70px;
         margin-bottom: 5px;
@@ -273,7 +223,7 @@ table td {
         border-style: solid;
     }
     
-    .box_title_03:before {
+    .box_title_04:before {
         position: absolute;
         top: -150%;
         left: -100px;
@@ -285,7 +235,7 @@ table td {
         background: rgb(144, 121, 173, 0.7);
       }
     
-      .box_title_03  #title_num_03 {
+      .box_title_04  #title_num_04 {
         font-size: 40px;
         /* font-size: 3rem; */
         position: absolute;
@@ -298,13 +248,13 @@ table td {
         color: #fff;
       }
     
-    .contents_box_03 {
+    .contents_box_04 {
         width: 80%;
         height: auto;
         margin-top: 5px;
     
         border-radius: 5px;
-        display: block;
+        display: flex;
         align-items: center;
         position: relative;
     
@@ -320,7 +270,7 @@ table td {
     
     }
     
-    .contents_box_03 .box_inner_03 {
+    .contents_box_04 .box_inner_04 {
         width: 100%;
         height: 100%;
     
@@ -335,42 +285,20 @@ table td {
         /* background-color: rgb(243, 242, 243, 0.7); */
     }
     
-    .box_inner_03 .skill {
+    .box_inner_04 .experience {
         display: flex;
         justify-content: center;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
     
         padding: 5px 0px 5px 0px;
     }
-
-    .contents_box_03 .ex_skill_box {
-        width:100%;
-        height: auto;
     
-        box-sizing: border-box;
-        padding: 0px 20px 0px 20px;
-        margin: 5px 0px 5px 0px;
-        
-        display: flex;
-    
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    
-        border-radius: 10px 10px 10px 10px;
-    }
-    
-    .ex_skill_box .inner_ex_skill_box {
-        padding: 10px 0px 10px 0px;
-        align-items: center;
-    }
-    
-    .skill .inner_skill_box {
+    .experience .inner_experience_box {
         width:80%;
         height: auto;
-        /* aspect-ratio: 10/3; */
+        aspect-ratio: 10/3;
     
-        margin: 10px 10px 10px 10px;
+        margin: 10px 0px 10px 0px;
     
         background-color: rgb(243, 242, 243);
     
@@ -378,7 +306,7 @@ table td {
         box-shadow: 0 4px 5px 5px rgb(0, 0, 0, 0.15);
     } 
     
-    .inner_skill_box .skill_title {
+    .inner_experience_box .experience_title {
         width:100%;
         height: auto;
     
@@ -389,47 +317,19 @@ table td {
         background-color: rgb(144, 121, 173, 0.7);
     }
     
-    #skill_language_text {
-        width: 100%;
-        height: 100%;
-        padding: 20px 20px 20px 20px;
+    #experience_text_01 {
+        margin: 20px 0px 20px 00px;
+        /* padding: 0px 100px 0px 100px; */
     }
     
-    #skill_language_text table {
-        table-layout: fixed;
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-
-    table td {
-        border-bottom: 1px solid rgb(144, 121, 173, 0.7);
+    #experience_text_02 {
+        margin: 20px 0px 20px 0px;
+        /* padding: 0px 100px 0px 100px; */
     }
     
-    #skill_framework_text {
-        width: 100%;
-        height: 100%;
-        padding: 20px 20px 20px 20px;
-    }
-    
-    #skill_framework_text table {
-        table-layout: fixed;
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    
-    #skill_tool_text {
-        width: 100%;
-        height: 100%;
-        padding: 20px 20px 20px 20px;
-    }
-    
-    #skill_tool_text table {
-        table-layout: fixed;
-        width: 100%;
-        height: auto;
-        text-align: center;
+    #experience_text_03 {
+        margin: 20px 0px 20px 0px;
+        /* padding: 0px 100px 0px 100px; */
     }
     
     .contents_04 {

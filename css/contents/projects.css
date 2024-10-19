@@ -2,7 +2,7 @@
     display: flex;
     /* justify-content: center; */
     /* box-sizing: border-box; */
-    margin: 30% 0px 30% 0px;
+    margin: 15% 0px 15% 0px;
     flex-direction: column;
     align-items: center;
 
@@ -146,20 +146,37 @@
     cursor: pointer;
 }
 
+.card-body {
+    width: 100%;
+}
+
 .card {
+    position: relative;
     border-radius: 8px 8px 0px 0px;
     box-shadow: 0 8px 10px 5px rgb(0, 0, 0, 0);
-    transition: box-shadow 1s ease-out, transform 0s ease-out;
+    transition: box-shadow 0.1s ease-out, transform 0s ease-out;
     box-sizing: border-box;
+    justify-content: center;
     align-items: center;
 }
 
 .card_position {
+    width: 95%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    bottom: 0;
+    margin: 10px 10px 10px 10px;
 }
 
 .card .btn-color {
+    background-color: rgba(144, 121, 173, 0.7);
+    border-color: rgb(144, 121, 173, 0.7);
+    border-width: 0px;
+    border-style: solid;
+}
+
+.card_position .btn-color {
     background-color: rgba(144, 121, 173, 0.7);
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 0px;
@@ -186,39 +203,79 @@
 }
 
 .card_img {
-    /* height: 50%;
-    width: 80px; */
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 
-#box_text_01 {
+.card-title {
+    font-size: 25px;
     text-align: center;
-    margin: 5% 5% 5% 5%;
 }
 
-#box_text_02 {
+#box_text_01-1 {
     text-align: center;
-    margin: 10% 5% 5% 5%;
+    margin: 2% 2% 2% 2%;
 }
 
-#box_text_03 {
+#box_text_01-2 {
     text-align: center;
-    margin: 10% 5% 5% 5%;
+    margin: 1% 1% 1% 1%;
+    height: 15%;
 }
 
-#box_text_04 {
+#box_text_02-1 {
     text-align: center;
-    margin: 10% 5% 5% 5%;
+    margin: 2% 2% 2% 2%;
 }
 
-#box_text_05 {
+#box_text_02-2 {
     text-align: center;
-    margin: 10% 5% 5% 5%;
+    margin: 1% 1% 1% 1%;
+    height: 30%;
 }
 
-#box_text_06 {
+#box_text_03-1 {
     text-align: center;
-    margin: 10% 5% 5% 5%;
+    margin: 2% 2% 2% 2%;
+}
+
+#box_text_03-2 {
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+    height: 20%;
+}
+
+#box_text_04-1 {
+    text-align: center;
+    margin: 2% 2% 2% 2%;
+}
+
+#box_text_04-2 {
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+    height: 20%;
+}
+
+#box_text_05-1 {
+    text-align: center;
+    margin: 2% 2% 2% 2%;
+}
+
+#box_text_05-2 {
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+    height: 20%;
+}
+
+#box_text_06-1 {
+    text-align: center;
+    margin: 2% 2% 2% 2%;
+}
+
+#box_text_06-2 {
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+    height: 38%;
 }
 
 /* .inner_contents_box > .box_title {
