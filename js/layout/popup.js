@@ -127,7 +127,7 @@ buttons.forEach(button => {
     console.log(popup_id);
     const popup = document.getElementById(`popup_contents_${popup_id}`);
     console.log(popup);
-    popup.addEventListener('click', function scroll_top() {
+    button.addEventListener('click', function scroll_top() {
         popup.scroll({ top: 0, behavior: "smooth" });
     });
 })
