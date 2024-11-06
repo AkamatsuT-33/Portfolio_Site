@@ -5,7 +5,7 @@
         project_title_01.innerHTML = '転移学習を用いた胸部Ｘ線画像モデルの作成と性能評価';
 
         const project_text_01 = document.getElementById('project_text_01');
-        project_text_01.innerHTML = `
+        project_text_01.innerHTML = `<div>
                                         <table>
                                                 <!-- <theader>
                                                 <tr>
@@ -29,7 +29,13 @@
                                                 </tr>
                                                 </tbody>
                                         </table>
-                                    `;
+                                </div>
+                                
+                                <div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/ml_x-ray'">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href='https://drive.google.com/drive/folders/1X--r0aA98WMipRy2XwrckXQC8CSoib4_?usp=sharing'">成果物へ</button>
+                                </div>
+                                `;
         
         const project_popup_mini_title2 = document.getElementById('project_popup_mini_title2');
         project_popup_mini_title2.innerHTML = `
@@ -76,7 +82,7 @@
         project_title_02.innerHTML = '胸部X線画像デスクトップアプリ';
 
         const project_text_02 = document.getElementById('project_text_02');
-        project_text_02.innerHTML = `
+        project_text_02.innerHTML = `<div>
                                         <table>
                                                 <!-- <theader>
                                                 <tr>
@@ -102,6 +108,11 @@
                                                 </tr>
                                                 </tbody>
                                         </table>
+                                </div>
+                                        <div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/x_ray_classification_desktop_app'">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href='https://drive.google.com/drive/folders/1h8-oklYoEYJqEeEa5esW6rOOsrpIEy83?usp=sharing'">成果物へ</button>
+                                </div>
                                     `;
 
         const project2_popup_mini_title2 = document.getElementById('project2_popup_mini_title2');
@@ -206,7 +217,7 @@
         project_title_03.innerHTML = '数字当てデスクトップアプリ';
 
         const project3_text_01 = document.getElementById('project3_text_01');
-        project3_text_01.innerHTML = `
+        project3_text_01.innerHTML = `<div>
                                         <table>
                                                 <!-- <theader>
                                                 <tr>
@@ -230,6 +241,11 @@
                                                 </tr>
                                                 </tbody>
                                         </table>
+                                </div>
+                                <div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/fig_search_app'">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href='https://drive.google.com/drive/folders/1PXTPhkmZqSoiPiDKdGnpFCOn7U3pxCpR?usp=sharing'">成果物へ</button>
+                                </div>
                                     `;
 
         const project3_popup_mini_title2 = document.getElementById('project3_popup_mini_title2');
@@ -340,7 +356,7 @@
         project_title_04.innerHTML = '数字当てコマンドラインアプリ';
 
         const project_text_04 = document.getElementById('project4_text_01');
-        project_text_04.innerHTML = `
+        project_text_04.innerHTML = `<div>
                                         <table>
                                                 <!-- <theader>
                                                 <tr>
@@ -363,6 +379,11 @@
                                                 </tr>
                                                 </tbody>
                                         </table>
+                                </div>
+                                <div style="height:50%; display: grid; grid-template-columns:1fr; justify-items: center; align-items: center;">
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/fig_search_cui'">GitHubへ(コード)</button>
+                                        <!-- <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href=''">成果物へ</button> -->
+                                </div>
                                     `;
 
         const project4_title_02 = document.getElementById('project4_title_02');
@@ -394,7 +415,7 @@
         project_title_05.innerHTML = 'QRコードデスクトップアプリ';
 
         const project_text_05 = document.getElementById('project_text_05');
-        project_text_05.innerHTML = `
+        project_text_05.innerHTML = `<div>
                                         <table>
                                                 <!-- <theader>
                                                 <tr>
@@ -420,6 +441,11 @@
                                                         </tr>
                                                 </tbody>
                                         </table>
+                                </div>
+                                <div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/qr_create_app'">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href='https://drive.google.com/drive/folders/1MhGKfiN9F9thdFTNxuaGoLGG50ZiJ5fb?usp=sharing'">成果物へ</button>
+                                </div>
                                     `;
         
         const project5_title_02 = document.getElementById('project5_title_02');
@@ -463,7 +489,7 @@
         project_title_06.innerHTML = 'ポートフォリオサイト';
 
         const project_text_06 = document.getElementById('project_text_06');
-        project_text_06.innerHTML = `
+        project_text_06.innerHTML = `<div>
                                         <table>
                                                 <!-- <theader>
                                                 <tr>
@@ -488,6 +514,11 @@
                                                         </tr>
                                                 </tbody>
                                         </table>
+                                </div>
+                                <!--<div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href=''">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href=''">成果物へ</button>
+                                </div> -->
                                     `;
 
         const project6_title_02 = document.getElementById('project6_title_02');
