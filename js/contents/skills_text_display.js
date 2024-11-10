@@ -57,7 +57,7 @@ skill_language_text.innerHTML = `
 
                                         <tr>
                                             <td>PHP</td>
-                                            <td>★（＊星1個半）</td>
+                                            <td>★（＊星半個）</td>
                                         </tr>
 
                                         <tr>
