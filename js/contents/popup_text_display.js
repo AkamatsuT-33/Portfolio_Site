@@ -32,8 +32,8 @@
                                 </div>
                                 
                                 <div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
-                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/ml_x-ray'" target="_blank" rel="noopener noreferrer">GitHubへ(コード)</button>
-                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href='https://drive.google.com/drive/folders/1X--r0aA98WMipRy2XwrckXQC8CSoib4_?usp=sharing'" target="_blank" rel="noopener noreferrer">成果物へ</button>
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="window.open('https://github.com/AkamatsuT-33/ml_x-ray', '_blank', 'noreferrer')">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="window.open('https://drive.google.com/drive/folders/1X--r0aA98WMipRy2XwrckXQC8CSoib4_?usp=sharing', '_blank', 'noreferrer')">成果物へ</button>
                                 </div>
                                 `;
         
@@ -110,8 +110,8 @@
                                         </table>
                                 </div>
                                         <div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
-                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/x_ray_classification_desktop_app'" target="_blank" rel="noopener noreferrer">GitHubへ(コード)</button>
-                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href='https://drive.google.com/drive/folders/1h8-oklYoEYJqEeEa5esW6rOOsrpIEy83?usp=sharing'" target="_blank" rel="noopener noreferrer">成果物へ</button>
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="window.open(https://github.com/AkamatsuT-33/x_ray_classification_desktop_app', '_blank', 'noreferrer')">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="window.open(https://drive.google.com/drive/folders/1h8-oklYoEYJqEeEa5esW6rOOsrpIEy83?usp=sharing', '_blank', 'noreferrer')">成果物へ</button>
                                 </div>
                                     `;
 
@@ -243,8 +243,8 @@
                                         </table>
                                 </div>
                                 <div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
-                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/fig_search_app'" target="_blank" rel="noopener noreferrer">GitHubへ(コード)</button>
-                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href='https://drive.google.com/drive/folders/1PXTPhkmZqSoiPiDKdGnpFCOn7U3pxCpR?usp=sharing'" target="_blank" rel="noopener noreferrer">成果物へ</button>
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="window.open(https://github.com/AkamatsuT-33/fig_search_app', '_blank', 'noreferrer')">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="window.open(https://drive.google.com/drive/folders/1PXTPhkmZqSoiPiDKdGnpFCOn7U3pxCpR?usp=sharing', '_blank', 'noreferrer')">成果物へ</button>
                                 </div>
                                     `;
 
@@ -381,8 +381,8 @@
                                         </table>
                                 </div>
                                 <div style="height:50%; display: grid; grid-template-columns:1fr; justify-items: center; align-items: center;">
-                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/fig_search_cui'" target="_blank" rel="noopener noreferrer">GitHubへ(コード)</button>
-                                        <!-- <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href=''" target="_blank" rel="noopener noreferrer">成果物へ</button> -->
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="window.open(https://github.com/AkamatsuT-33/fig_search_cui', '_blank', 'noreferrer')">GitHubへ(コード)</button>
+                                        <!-- <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="window.open('', '_blank', 'noreferrer')">成果物へ</button> -->
                                 </div>
                                     `;
 
@@ -443,8 +443,8 @@
                                         </table>
                                 </div>
                                 <div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
-                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href='https://github.com/AkamatsuT-33/qr_create_app'" target="_blank" rel="noopener noreferrer">GitHubへ(コード)</button>
-                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href='https://drive.google.com/drive/folders/1MhGKfiN9F9thdFTNxuaGoLGG50ZiJ5fb?usp=sharing'" target="_blank" rel="noopener noreferrer">成果物へ</button>
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="window.open(https://github.com/AkamatsuT-33/qr_create_app', '_blank', 'noreferrer')">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="window.open(https://drive.google.com/drive/folders/1MhGKfiN9F9thdFTNxuaGoLGG50ZiJ5fb?usp=sharing', '_blank', 'noreferrer')">成果物へ</button>
                                 </div>
                                     `;
         
@@ -516,8 +516,8 @@
                                         </table>
                                 </div>
                                 <!--<div style="height:50%; display: grid; grid-template-columns:1fr 1fr; justify-items: center; align-items: center;">
-                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="location.href=''" target="_blank" rel="noopener noreferrer">GitHubへ(コード)</button>
-                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="location.href=''" target="_blank" rel="noopener noreferrer">成果物へ</button>
+                                        <button style="grid-column: 1/2; text-align: center;" class="go_out_page_btn" onclick="window.open('', '_blank', 'noreferrer')">GitHubへ(コード)</button>
+                                        <button style="grid-column: 2/3; text-align: center;" class="go_out_page_btn" onclick="window.open('', '_blank', 'noreferrer')">成果物へ</button>
                                 </div> -->
                                     `;
 
