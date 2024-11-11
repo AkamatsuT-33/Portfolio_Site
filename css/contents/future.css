@@ -73,6 +73,8 @@
     align-items: center;
     position: relative;
 
+    text-align: center;
+
     border-color: rgb(144, 121, 173, 0.7);
     border-width: 3px;
     border-style: solid;
