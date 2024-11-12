@@ -56,11 +56,6 @@ skill_language_text.innerHTML = `
                                         </tr>
 
                                         <tr>
-                                            <td>PHP</td>
-                                            <td>★（＊星半個）</td>
-                                        </tr>
-
-                                        <tr>
                                             <td>MySQL</td>
                                             <td>★★☆☆☆</td>
                                         </tr>
@@ -141,16 +136,6 @@ skill_framework_text.innerHTML = `<table>
                                         </tr>
 
                                         <tr>
-                                            <td>Swing</td>
-                                            <td>★☆☆☆☆</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>jQuery</td>
-                                            <td>★☆☆☆☆</td>
-                                        </tr>
-
-                                        <tr>
                                             <td>Node.js</td>
                                             <td>★☆☆☆☆</td>
                                         </tr>
@@ -226,10 +211,6 @@ skill_tool_text.innerHTML = `
                                         <td>★★★☆☆</td>
                                     </tr>
 
-                                    <tr>
-                                        <td>Trello</td>
-                                        <td>★☆☆☆☆</td>
-                                    </tr>
                                 </tbody>
                             </table>
                             `
