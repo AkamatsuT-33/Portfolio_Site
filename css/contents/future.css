@@ -91,11 +91,9 @@
     background-color: rgb(243, 242, 243);
 }
 
-/* .contents_box_04 > .box_inner_04 {
-    
-
-
-} */
+.contents_box_06 .box_inner_06 {
+    width: 100%;
+}
 
 .contents_06 {
     justify-content: center;
