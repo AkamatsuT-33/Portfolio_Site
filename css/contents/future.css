@@ -48,9 +48,9 @@
     -webkit-transform: rotate(25deg);
     transform: rotate(25deg);
     background: rgb(144, 121, 173, 0.7);
-  }
+}
 
-  .box_title_06 #title_num_06 {
+.box_title_06 #title_num_06 {
     font-size: 40px;
     /* font-size: 3rem; */
     position: absolute;
@@ -61,7 +61,7 @@
     padding-top: 3px;
     padding-left: 16px;
     color: rgb(243, 242, 243);
-  }
+}
 
 .contents_box_06 {
     width: 80%;
@@ -91,11 +91,9 @@
     background-color: rgb(243, 242, 243);
 }
 
-/* .contents_box_04 > .box_inner_04 {
-    
-
-
-} */
+.contents_box_06 .box_inner_06 {
+    width: 100%;
+}
 
 .contents_06 {
     justify-content: center;
