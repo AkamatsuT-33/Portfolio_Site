@@ -6,7 +6,7 @@ nav_title.innerHTML = "Haru's PortFolio Sites.";
 
 const eye_catch_title = document.getElementById("eye_catch_title");
 eye_catch_title.innerHTML = `
-                                <span style='text-align: center;'><h1>Haru's PortFolio Sites.</h1></span>
+                                <span style='text-align: center;'><h1>Haru's Port<span style='color:#EF4123'>F</span>olio Sites.</h1></span>
                                 <br>
                                 <br>
                                 <p>
