@@ -6,7 +6,9 @@ const name_01 = document.querySelector(".name_01");
 name_01.textContent = "Tomoharu AKAMATSU";
 
 const text_01 = document.querySelector(".text_01");
-text_01.innerHTML = `東京国際工科専門職大学 工科学部 情報工学科 AI戦略コース 卒`;
+text_01.innerHTML = `ソリューション・ラボ・ジャパン株式会社 所属 <br>
+                     東京国際工科専門職大学 工科学部 情報工学科 AI戦略コース 卒
+                     `;
 
 const text_02 = document.querySelector(".text_02");
 text_02.innerHTML = `
